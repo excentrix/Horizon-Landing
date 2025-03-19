@@ -16,7 +16,7 @@ export default function Page() {
     const [position, setPosition] = useState(Math.floor(Math.random() * 500) + 1500);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
-    const fullTagline = 'Where AI mentorship meets collaborative learning';
+    const fullTagline = 'Where AI mentorship meets collaborative learning.';
     const heroRef = useRef(null);
     const particlesRef = useRef(null);
 
@@ -27,8 +27,10 @@ export default function Page() {
 
             // Update 3D elements based on mouse position
             if (heroRef.current) {
-                const elements = heroRef.current.querySelectorAll('.geometric-element');
-                elements.forEach((el) => {
+                const elements = (heroRef.current as HTMLElement).querySelectorAll<HTMLElement>(
+                    '.geometric-element',
+                );
+                elements.forEach((el: HTMLElement) => {
                     const rect = el.getBoundingClientRect();
                     const centerX = rect.left + rect.width / 2;
                     const centerY = rect.top + rect.height / 2;
@@ -78,13 +80,19 @@ export default function Page() {
     // Particle system
     useEffect(() => {
         if (!particlesRef.current) return;
-
-        const canvas = particlesRef.current;
-        const ctx = canvas.getContext('2d');
+        const canvas = particlesRef.current as HTMLCanvasElement;
+        const ctx = canvas.getContext('2d')!;
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
 
-        const particles = [];
+        const particles: Array<{
+            x: number;
+            y: number;
+            size: number;
+            speedX: number;
+            speedY: number;
+            color: string;
+        }> = [];
         const particleCount = 100;
 
         for (let i = 0; i < particleCount; i++) {
@@ -184,7 +192,7 @@ export default function Page() {
 
     return (
         <div
-            className="relative min-h-screen overflow-hidden bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900"
+            className="relative min-h-screen overflow-hidden bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900 select-none"
             data-oid="y33cp9c"
         >
             {/* Particle system */}
