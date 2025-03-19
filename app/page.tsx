@@ -1,4 +1,69 @@
-=======
+'use client';
+
+import { useState, useEffect, useRef } from 'react';
+import { addToWaitlist } from '../lib/notion';
+import Script from 'next/script';
+import { useAnalytics } from '../lib/useAnalytics';
+
+export default function Page() {
+    // Track page views for analytics
+    useAnalytics();
+    
+    const [countdown, setCountdown] = useState({ days: 30, hours: 0, minutes: 0, seconds: 0 });
+    const [typedText, setTypedText] = useState('');
+    const [signupEmail, setSignupEmail] = useState('');
+    const [showSuccess, setShowSuccess] = useState(false);
+    const [position, setPosition] = useState(Math.floor(Math.random() * 500) + 1500);
+    const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitError, setSubmitError] = useState('');
+
+    const fullTagline = 'Where AI mentorship meets collaborative learning';
+    const heroRef = useRef(null);
+    const particlesRef = useRef(null);
+
+    // Rest of your component code...
+    
+    // Handle submit function
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (!signupEmail) return;
+        
+        setIsSubmitting(true);
+        setSubmitError('');
+        
+        try {
+            const result = await addToWaitlist({
+                email: signupEmail,
+                position: position
+            });
+            
+            if (result.success) {
+                setShowSuccess(true);
+                setTimeout(() => {
+                    setShowSuccess(false);
+                }, 5000);
+            } else {
+                setSubmitError(result.error || 'Failed to join waitlist. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            setSubmitError('An unexpected error occurred. Please try again.');
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
+    // Copy the rest of your component code from the original file
+    // ...
+
+    return (
+        // Your component JSX
+        <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900">
+            {/* Your existing JSX */}
+        </div>
+    );
+}=======
 'use client';
 
 import { useState, useEffect, useRef } from 'react';

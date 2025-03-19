@@ -17,9 +17,9 @@ export const metadata: Metadata = {
         'learning community',
     ],
 
-    authors: [{ name: 'Horizon Team' }],
-    creator: 'Horizon',
-    publisher: 'Horizon',
+    authors: [{ name: 'Excentrix Team' }],
+    creator: 'Excentrix',
+    publisher: 'Excentrix',
     formatDetection: {
         email: false,
         telephone: false,
@@ -76,13 +76,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en" data-oid="mu_.2t6">
-            <head data-oid="920wqra">
+        <html lang="en" data-oid="tgjfw0_">
+            <head data-oid="w3dnscj">
                 {/* Google Analytics */}
                 <Script
                     strategy="afterInteractive"
                     src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} // Replace with your actual GA ID
-                    data-oid="1l_8d9n"
+                    data-oid="f:byyxw"
                 />
 
                 <Script
@@ -96,10 +96,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                             gtag('config', 'G-XXXXXXXXXX'); // Replace with your actual GA ID
                         `,
                     }}
-                    data-oid="c.j5knd"
+                    data-oid="njz-qdx"
                 />
             </head>
-            <body className={inter.className} data-oid="in0c0te">
+            <body className={inter.className} data-oid="8dky9lj">
                 {children}
             </body>
         </html>
