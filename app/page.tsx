@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { addToWaitlist } from '../lib/notion';
 import Script from 'next/script';
 import { useAnalytics } from '../lib/useAnalytics';
+import Image from 'next/image';
 
 export default function Page() {
     // Track page views for analytics
@@ -256,11 +257,13 @@ export default function Page() {
                         className="text-white text-2xl font-bold tracking-tight items-center flex justify-start gap-[10px]"
                         data-oid="x_x1.0z"
                     >
-                        <img
+                        <Image
                             className="w-8 h-8"
                             src="/images/blob2.svg"
                             alt="blob_white.svg"
                             data-oid="yhrruhy"
+                            width={32}
+                            height={32}
                         />
 
                         <span
@@ -618,7 +621,7 @@ export default function Page() {
                                                 You&apos;re In!
                                             </h3>
                                             <p className="text-white/80 mb-4" data-oid="s_wkyb3">
-                                                You're #{position} on our waitlist.
+                                                You&apos;re #{position} on our waitlist.
                                             </p>
                                             <div className="animate-confetti" data-oid="p5-xttt">
                                                 🎉
