@@ -22,7 +22,7 @@ export default function Page() {
 
     // Handle mouse movement for interactive elements
     useEffect(() => {
-        const handleMouseMove = (e) => {
+        const handleMouseMove = (e: any) => {
             setMousePosition({ x: e.clientX, y: e.clientY });
 
             // Update 3D elements based on mouse position
@@ -153,7 +153,7 @@ export default function Page() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitError, setSubmitError] = useState('');
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: any) => {
         e.preventDefault();
         if (!signupEmail) return;
 
