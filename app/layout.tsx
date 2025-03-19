@@ -1,5 +1,9 @@
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import './globals.css';
-import { Metadata } from 'next';
+import Script from 'next/script';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'Horizon | Where AI mentorship meets collaborative learning',
@@ -12,6 +16,7 @@ export const metadata: Metadata = {
         'AI tutoring',
         'learning community',
     ],
+
     authors: [{ name: 'Horizon Team' }],
     creator: 'Horizon',
     publisher: 'Horizon',
@@ -37,6 +42,7 @@ export const metadata: Metadata = {
                 alt: 'Horizon - AI mentorship platform',
             },
         ],
+
         locale: 'en_US',
         type: 'website',
     },
@@ -63,43 +69,6 @@ export const metadata: Metadata = {
         google: 'your-google-verification-code', // Replace with your Google verification code
         yandex: 'your-yandex-verification-code', // Replace with your Yandex verification code if needed
     },
-};
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-    return (
-        <html lang="en">
-            <head>
-                {/* Google Analytics */}
-                <Script
-                    strategy="afterInteractive"
-                    src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} // Replace with your actual GA ID
-                />
-                <Script
-                    id="google-analytics"
-                    strategy="afterInteractive"
-                    dangerouslySetInnerHTML={{
-                        __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-XXXXXXXXXX'); // Replace with your actual GA ID
-            `,
-                    }}
-                />
-            </head>
-            <body>{children}</body>
-        </html>
-    );
-}
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
-
-const inter = Inter({ subsets: ['latin'] });
-
-export const metadata: Metadata = {
-    title: 'Horizon',
-    description: 'Horizon - Your personal Ai Mentor!',
     icons: {
         icon: '/images/blob2.svg',
     },
@@ -108,6 +77,28 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="en" data-oid="mu_.2t6">
+            <head data-oid="920wqra">
+                {/* Google Analytics */}
+                <Script
+                    strategy="afterInteractive"
+                    src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} // Replace with your actual GA ID
+                    data-oid="1l_8d9n"
+                />
+
+                <Script
+                    id="google-analytics"
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-XXXXXXXXXX'); // Replace with your actual GA ID
+                        `,
+                    }}
+                    data-oid="c.j5knd"
+                />
+            </head>
             <body className={inter.className} data-oid="in0c0te">
                 {children}
             </body>
