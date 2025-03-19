@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         email: false,
         telephone: false,
     },
-    metadataBase: new URL('https://yourdomain.com'), // Replace with your actual domain
+    metadataBase: new URL('https://horizon.excentrix.tech'), // Replace with your actual domain
     alternates: {
         canonical: '/',
     },
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
         title: 'Horizon | Where AI mentorship meets collaborative learning',
         description:
             'Join Horizon to experience the future of learning with AI mentors and a collaborative community. Sign up for our waitlist today.',
-        url: 'https://yourdomain.com', // Replace with your actual domain
+        url: 'https://horizon.excentrix.tech', // Replace with your actual domain
         siteName: 'Horizon',
         images: [
             {
-                url: 'https://yourdomain.com/images/og-image.jpg', // Replace with your actual OG image
-                width: 1200,
-                height: 630,
+                url: 'https://horizon.excentrix.tech/images/og-horizon.png', // Replace with your actual OG image
+                width: 1280,
+                height: 720,
                 alt: 'Horizon - AI mentorship platform',
             },
         ],
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
         title: 'Horizon | Where AI mentorship meets collaborative learning',
         description:
             'Join Horizon to experience the future of learning with AI mentors and a collaborative community. Sign up for our waitlist today.',
-        images: ['https://yourdomain.com/images/twitter-image.jpg'], // Replace with your actual Twitter image
-        creator: '@horizonlearning', // Replace with your actual Twitter handle
+        images: ['https://horizon.excentrix.tech/images/og-horizon.png'], // Replace with your actual Twitter image
+        creator: '@excentrix', // Replace with your actual Twitter handle
     },
     robots: {
         index: true,
@@ -76,13 +76,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en" data-oid="tgjfw0_">
-            <head data-oid="w3dnscj">
+        <html lang="en" data-oid="rlbe8ah">
+            <head data-oid="-xy4tel">
                 {/* Google Analytics */}
                 <Script
                     strategy="afterInteractive"
-                    src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} // Replace with your actual GA ID
-                    data-oid="f:byyxw"
+                    src={`https://www.googletagmanager.com/gtag/js?id=G-JCJ88LN2LC`} // Replace with your actual GA ID
+                    data-oid="lc2c3y0"
                 />
 
                 <Script
@@ -93,13 +93,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                             window.dataLayer = window.dataLayer || [];
                             function gtag(){dataLayer.push(arguments);}
                             gtag('js', new Date());
-                            gtag('config', 'G-XXXXXXXXXX'); // Replace with your actual GA ID
+                            gtag('config', 'G-JCJ88LN2LC'); // Replace with your actual GA ID
                         `,
                     }}
-                    data-oid="njz-qdx"
+                    data-oid="fgm6c:h"
                 />
             </head>
-            <body className={inter.className} data-oid="8dky9lj">
+            <body className={inter.className} data-oid="anlmr-:">
                 {children}
             </body>
         </html>
