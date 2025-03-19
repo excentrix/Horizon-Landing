@@ -1,20 +1,36 @@
-import { useEffect } from 'react';
+import { useEffect, useCallback } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
+import { GoogleAnalyticsProvider } from './analytics/providers/google-analytics';
+import type { AnalyticsEvent } from './analytics/types';
+
+const analyticsProvider = new GoogleAnalyticsProvider();
 
 export function useAnalytics() {
     const pathname = usePathname();
     const searchParams = useSearchParams();
 
     useEffect(() => {
-        // This is where you would typically send a page view to your analytics service
-        // For example, if using Google Analytics:
-        if (typeof window !== 'undefined' && (window as any).gtag) {
-            (window as any).gtag('config', 'G-JCJ88LN2LC', {
-                page_path: pathname,
+        try {
+            const queryString = searchParams ? `?${searchParams}` : '';
+            analyticsProvider.pageView({
+                path: pathname,
+                query: queryString,
+                title: document.title,
+                referrer: document.referrer,
             });
+        } catch (error) {
+            // In production, you might want to send this to an error reporting service
+            console.error('Failed to send analytics:', error);
         }
-
-        // For demonstration purposes, we'll just log to console
-        console.log(`Page view: ${pathname}${searchParams ? `?${searchParams}` : ''}`);
     }, [pathname, searchParams]);
+
+    const trackEvent = useCallback((event: AnalyticsEvent) => {
+        try {
+            analyticsProvider.event(event);
+        } catch (error) {
+            console.error('Failed to track event:', error);
+        }
+    }, []);
+
+    return { trackEvent };
 }
