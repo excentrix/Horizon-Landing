@@ -8,8 +8,8 @@ export function useAnalytics() {
     useEffect(() => {
         // This is where you would typically send a page view to your analytics service
         // For example, if using Google Analytics:
-        if (typeof window !== 'undefined' && window.gtag) {
-            window.gtag('config', 'G-XXXXXXXXXX', {
+        if (typeof window !== 'undefined' && (window as any).gtag) {
+            (window as any).gtag('config', 'G-JCJ88LN2LC', {
                 page_path: pathname,
             });
         }
