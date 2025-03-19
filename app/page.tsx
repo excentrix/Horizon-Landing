@@ -500,7 +500,7 @@ export default function Page() {
                             data-oid="_yj7prp"
                         >
                             <p className="text-white/90 text-sm" data-oid="viskvi-">
-                                "This platform changed how I learn!"
+                                &quot;This platform changed how I learn!&quot;
                             </p>
                         </div>
                         <div
@@ -508,7 +508,7 @@ export default function Page() {
                             data-oid="8g3jt13"
                         >
                             <p className="text-white/90 text-sm" data-oid="m24aqlp">
-                                "The AI mentor understood exactly what I needed."
+                                &quot;The AI mentor understood exactly what I needed.&quot;
                             </p>
                         </div>
 
@@ -615,7 +615,7 @@ export default function Page() {
                                                 className="text-xl font-bold text-white mb-2"
                                                 data-oid="r76qjdo"
                                             >
-                                                You're In!
+                                                You&apos;re In!
                                             </h3>
                                             <p className="text-white/80 mb-4" data-oid="s_wkyb3">
                                                 You're #{position} on our waitlist.
