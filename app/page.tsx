@@ -276,7 +276,7 @@ export default function Page() {
 
                         <Image
                             className="w-full h-fit hidden md:block"
-                            src="/images/white_w_name.png"
+                            src="/images/White_w_name_cropped.png"
                             alt="white_w_name.png"
                             width={500}
                             height={500}
@@ -847,7 +847,7 @@ export default function Page() {
                 <footer className="py-8 mt-12 border-t border-white/10" data-oid="ete16p_">
                     <Image
                         className="w-fit h-fit my-20"
-                        src="/images/white_w_name.png"
+                        src="/images/White_w_name_cropped.png"
                         alt="white_w_name.png"
                         width={500}
                         height={500}
