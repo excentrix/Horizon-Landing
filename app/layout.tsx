@@ -80,13 +80,13 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en" data-oid="rlbe8ah">
-            <head data-oid="-xy4tel">
+        <html lang="en" data-oid=".s.l5f:">
+            <head data-oid="iwdertw">
                 {/* Google Analytics */}
                 <Script
                     strategy="afterInteractive"
                     src={`https://www.googletagmanager.com/gtag/js?id=G-JCJ88LN2LC`} // Replace with your actual GA ID
-                    data-oid="lc2c3y0"
+                    data-oid="r4uot00"
                 />
 
                 <Script
@@ -100,10 +100,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                             gtag('config', 'G-JCJ88LN2LC'); // Replace with your actual GA ID
                         `,
                     }}
-                    data-oid="fgm6c:h"
+                    data-oid="5:k9zo2"
                 />
             </head>
-            <body className={inter.className} data-oid="anlmr-:">
+            <body className={inter.className} data-oid="ggt8tcd">
                 {children}
             </body>
         </html>

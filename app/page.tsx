@@ -193,28 +193,28 @@ export default function Page() {
     return (
         <div
             className="relative min-h-screen overflow-hidden bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900 select-none"
-            data-oid="y33cp9c"
+            data-oid="t6pi::j"
         >
             {/* Particle system */}
             <canvas
                 ref={particlesRef}
                 className="absolute inset-0 w-full h-full z-0"
-                data-oid="kh7i18x"
+                data-oid="dd-87z3"
             />
 
             {/* Animated background shapes */}
-            <div className="absolute inset-0 z-0 opacity-30 left-0 -top-px" data-oid="nup0qeq">
+            <div className="absolute inset-0 z-0 opacity-30 left-0 -top-px" data-oid="t5nm0-j">
                 <div
                     className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-purple-500 blur-3xl animate-blob"
-                    data-oid="26ysyb4"
+                    data-oid="7-_2-j9"
                 ></div>
                 <div
                     className="absolute top-1/3 right-1/4 w-96 h-96 rounded-full bg-orange-500 blur-3xl animate-blob animation-delay-2000"
-                    data-oid="f.wqzks"
+                    data-oid="nuy286m"
                 ></div>
                 <div
                     className="absolute bottom-1/4 left-1/3 w-96 h-96 rounded-full bg-blue-500 blur-3xl animate-blob animation-delay-4000"
-                    data-oid="q5g24wz"
+                    data-oid="pvr:62_"
                 ></div>
             </div>
 
@@ -222,23 +222,23 @@ export default function Page() {
             <div
                 ref={heroRef}
                 className="absolute inset-0 z-10 pointer-events-none"
-                data-oid="a:ae2-x"
+                data-oid="ushz3f5"
             >
                 <div
                     className="geometric-element absolute top-1/4 left-1/5 w-16 h-16 bg-gradient-to-r from-purple-400 to-purple-600 rounded-lg transform rotate-12 opacity-70"
-                    data-oid="g.rm.tx"
+                    data-oid="4bh:r93"
                 ></div>
                 <div
                     className="geometric-element absolute top-1/3 right-1/4 w-24 h-24 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full transform -rotate-12 opacity-70"
-                    data-oid="0twgt:7"
+                    data-oid="0.03nwh"
                 ></div>
                 <div
                     className="geometric-element absolute bottom-1/4 left-1/3 w-20 h-20 bg-gradient-to-r from-blue-400 to-blue-600 transform rotate-45 opacity-70"
-                    data-oid="-myq_2b"
+                    data-oid="_ml4835"
                 ></div>
                 <div
                     className="geometric-element absolute top-2/3 right-1/3 w-12 h-12 bg-gradient-to-r from-indigo-400 to-indigo-600 rounded-lg transform -rotate-12 opacity-70"
-                    data-oid="kvml7ft"
+                    data-oid="jdo0p03"
                 ></div>
             </div>
 
@@ -251,38 +251,48 @@ export default function Page() {
                     transform: 'translate(-50%, -50%)',
                     transition: 'all 0.1s ease-out',
                 }}
-                data-oid=".5t8urd"
+                data-oid="i5-52ti"
             />
 
             {/* Main content */}
             <div
                 className="relative z-20 container mx-auto px-4 py-12 min-h-screen flex flex-col"
-                data-oid=":7e5vqn"
+                data-oid="_loghrq"
             >
                 {/* Navigation */}
-                <nav className="flex justify-between items-center py-4" data-oid="56-iwjz">
+                <nav className="flex justify-between items-center" data-oid="a1lx0me">
                     <div
                         className="text-white text-2xl font-bold tracking-tight items-center flex justify-start gap-[10px]"
-                        data-oid="x_x1.0z"
+                        data-oid="dlu0.kj"
                     >
+                        {/* <Image
+              className="w-8 h-8"
+              src="/images/blob2.svg"
+              alt="blob_white.svg"
+              data-oid="yhrruhy"
+              width={32}
+              height={32}
+              /> */}
+
                         <Image
-                            className="w-8 h-8"
-                            src="/images/blob2.svg"
+                            className="w-full h-fit hidden md:block"
+                            src="/images/white_w_name.png"
                             alt="blob_white.svg"
-                            data-oid="yhrruhy"
-                            width={32}
-                            height={32}
+                            width={500}
+                            height={500}
+                            objectFit="contain"
+                            data-oid="-w.eus3"
                         />
 
-                        <span
-                            className="bg-clip-text text-transparent text-white"
-                            data-oid="h60djqn"
-                        >
-                            excentrix
-                        </span>
+                        {/* <span
+              className="bg-clip-text text-transparent text-white"
+              data-oid="qtswio3"
+              >
+              excentrix
+              </span> */}
                     </div>
 
-                    <div className="hidden md:flex space-x-8 text-white/80" data-oid="og-rrh_">
+                    <div className="hidden md:flex space-x-8 text-white/80" data-oid="b:62c7k">
                         {/* <a href="#" className="hover:text-white transition-colors duration-300">
               About
               </a>
@@ -292,14 +302,14 @@ export default function Page() {
                         <a
                             href="https://chat.whatsapp.com/BfaSjvXcJhBBw7WTBEH7Vg"
                             className="hover:text-white transition-colors duration-300"
-                            data-oid="liicnsx"
+                            data-oid="djgc:bh"
                         >
                             Community
                         </a>
                         <a
                             href="https://www.excentrix.tech/#contact"
                             className="hover:text-white transition-colors duration-300"
-                            data-oid="7mfsa0l"
+                            data-oid="h3vpy48"
                         >
                             Contact
                         </a>
@@ -309,88 +319,88 @@ export default function Page() {
                 {/* Hero section */}
                 <div
                     className="flex-1 flex flex-col md:flex-row items-center justify-center gap-12 py-12"
-                    data-oid="g1d35aq"
+                    data-oid="2uk13l:"
                 >
-                    <div className="md:w-1/2 space-y-8" data-oid="5oof4vv">
+                    <div className="md:w-1/2 space-y-8" data-oid="nypbk8h">
                         <h1
                             className="text-5xl md:text-7xl font-bold text-white"
-                            data-oid="1knwu59"
+                            data-oid="opztu6b"
                         >
                             <span
                                 className="block bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-orange-300 to-blue-400 animate-gradient-x"
-                                data-oid="6q1:4xm"
+                                data-oid="i9muj82"
                             >
                                 Horizon
                             </span>
                         </h1>
 
-                        <div className="h-8" data-oid="m:pabs5">
+                        <div className="h-8" data-oid="p0nbx8-">
                             <p
                                 className="text-xl md:text-2xl text-white/90 font-light"
-                                data-oid="h8zsm:f"
+                                data-oid="w_1zqec"
                             >
                                 {typedText}
-                                <span className="animate-blink" data-oid="vr27bjs">
+                                <span className="animate-blink" data-oid="nr4y_rj">
                                     |
                                 </span>
                             </p>
                         </div>
 
-                        <div className="flex items-center space-x-4" data-oid="_1k06j.">
-                            <div className="relative" data-oid="p_v:-w4">
+                        <div className="flex items-center space-x-4" data-oid="zevdp4f">
+                            <div className="relative" data-oid="mfy4ogn">
                                 <div
                                     className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 via-orange-400 to-blue-500 animate-spin-slow blur-sm"
-                                    data-oid="5xhxjo-"
+                                    data-oid="9457ozp"
                                 ></div>
                                 <div
                                     className="relative px-4 py-2 bg-white/10 backdrop-blur-md rounded-full border border-white/20"
-                                    data-oid="96qi74q"
+                                    data-oid="sbm9w72"
                                 >
-                                    <span className="text-white font-medium" data-oid="m10pxyi">
+                                    <span className="text-white font-medium" data-oid="mtnc6.b">
                                         Coming Soon
                                     </span>
                                 </div>
                             </div>
 
-                            <div className="flex space-x-2 text-white" data-oid="vdwoe33">
-                                <div className="flex flex-col items-center" data-oid="f9ocow.">
-                                    <span className="text-2xl font-bold" data-oid="k2b2:l-">
+                            <div className="flex space-x-2 text-white" data-oid="1ylfe:k">
+                                <div className="flex flex-col items-center" data-oid="hkqc8j1">
+                                    <span className="text-2xl font-bold" data-oid="wf66-3m">
                                         {countdown.days}
                                     </span>
-                                    <span className="text-xs opacity-70" data-oid="8:7qz6q">
+                                    <span className="text-xs opacity-70" data-oid="d1-p3:0">
                                         Days
                                     </span>
                                 </div>
-                                <span className="text-2xl" data-oid="rh1kz20">
+                                <span className="text-2xl" data-oid="c-xr6mm">
                                     :
                                 </span>
-                                <div className="flex flex-col items-center" data-oid="uyq7yhv">
-                                    <span className="text-2xl font-bold" data-oid="5lt36a:">
+                                <div className="flex flex-col items-center" data-oid="vxxvm8.">
+                                    <span className="text-2xl font-bold" data-oid="4fncdse">
                                         {countdown.hours}
                                     </span>
-                                    <span className="text-xs opacity-70" data-oid="lt8mg8_">
+                                    <span className="text-xs opacity-70" data-oid="lwduapr">
                                         Hours
                                     </span>
                                 </div>
-                                <span className="text-2xl" data-oid="b67esnd">
+                                <span className="text-2xl" data-oid="2.g3ibd">
                                     :
                                 </span>
-                                <div className="flex flex-col items-center" data-oid=":vb-l8g">
-                                    <span className="text-2xl font-bold" data-oid="h-7an:k">
+                                <div className="flex flex-col items-center" data-oid="0lvg1sc">
+                                    <span className="text-2xl font-bold" data-oid="iw6o6:c">
                                         {countdown.minutes}
                                     </span>
-                                    <span className="text-xs opacity-70" data-oid="gr9cz1c">
+                                    <span className="text-xs opacity-70" data-oid="d:k0u.7">
                                         Min
                                     </span>
                                 </div>
-                                <span className="text-2xl" data-oid="yq82f6f">
+                                <span className="text-2xl" data-oid="pzhqpgg">
                                     :
                                 </span>
-                                <div className="flex flex-col items-center" data-oid="ps8suyx">
-                                    <span className="text-2xl font-bold" data-oid="e1.xlab">
+                                <div className="flex flex-col items-center" data-oid="m98ujoq">
+                                    <span className="text-2xl font-bold" data-oid=".en4pif">
                                         {countdown.seconds}
                                     </span>
-                                    <span className="text-xs opacity-70" data-oid="g18i4e1">
+                                    <span className="text-xs opacity-70" data-oid="8hutr5r">
                                         Sec
                                     </span>
                                 </div>
@@ -399,32 +409,32 @@ export default function Page() {
                     </div>
 
                     {/* 3D Isometric Illustration */}
-                    <div className="md:w-1/2 relative" data-oid="14tyct:">
+                    <div className="md:w-1/2 relative" data-oid="8_nc_ur">
                         <div
                             className="relative w-full h-80 md:h-96 perspective-1000"
-                            data-oid="nn77lh2"
+                            data-oid="xzixc4g"
                         >
                             <div
                                 className="absolute inset-0 transform-style-3d rotate-x-12 rotate-y-24 transition-transform duration-700 hover:rotate-y-12 group"
-                                data-oid="fyul7x."
+                                data-oid="g0y26vi"
                             >
                                 {/* AI Mentor */}
                                 <div
                                     className="absolute top-1/4 left-1/4 w-32 h-32 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg shadow-xl transform rotate-y-45 translate-z-16 group-hover:translate-z-24 transition-transform duration-500"
-                                    data-oid="yj1bsry"
+                                    data-oid="5cvug6f"
                                 >
                                     <div
                                         className="absolute inset-2 bg-black/30 rounded-lg flex items-center justify-center"
-                                        data-oid="os.oktw"
+                                        data-oid="u6_5xlj"
                                     >
                                         <div
                                             className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-400 to-blue-400 animate-pulse"
-                                            data-oid="vns9i:5"
+                                            data-oid=":7s7kan"
                                         ></div>
                                     </div>
                                     <div
                                         className="absolute -bottom-12 left-0 right-0 text-center text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                        data-oid="jve0rio"
+                                        data-oid="5ns8s3h"
                                     >
                                         AI Mentor
                                     </div>
@@ -433,30 +443,30 @@ export default function Page() {
                                 {/* Student Community */}
                                 <div
                                     className="absolute top-1/3 right-1/4 w-32 h-32 bg-gradient-to-r from-orange-500 to-pink-500 rounded-lg shadow-xl transform rotate-y-45 translate-z-8 group-hover:translate-z-16 transition-transform duration-500"
-                                    data-oid="c._-9f:"
+                                    data-oid="bp736ha"
                                 >
                                     <div
                                         className="absolute inset-2 bg-black/30 rounded-lg flex items-center justify-center"
-                                        data-oid="6830ich"
+                                        data-oid="bk:l4zl"
                                     >
-                                        <div className="relative w-20 h-20" data-oid="ioshkk8">
+                                        <div className="relative w-20 h-20" data-oid="dm-5jpv">
                                             <div
                                                 className="absolute top-0 left-0 w-8 h-8 rounded-full bg-orange-400"
-                                                data-oid="aej64xf"
+                                                data-oid="6:oovaf"
                                             ></div>
                                             <div
                                                 className="absolute top-4 right-0 w-8 h-8 rounded-full bg-pink-400"
-                                                data-oid="36z50hn"
+                                                data-oid="c8h10i_"
                                             ></div>
                                             <div
                                                 className="absolute bottom-0 left-4 w-8 h-8 rounded-full bg-red-400"
-                                                data-oid="hii1p97"
+                                                data-oid="fb6aye5"
                                             ></div>
                                         </div>
                                     </div>
                                     <div
                                         className="absolute -bottom-12 left-0 right-0 text-center text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                        data-oid="tk.ihf2"
+                                        data-oid="da9fuuq"
                                     >
                                         Student Community
                                     </div>
@@ -465,34 +475,34 @@ export default function Page() {
                                 {/* Growth Journey */}
                                 <div
                                     className="absolute bottom-1/4 left-1/3 w-32 h-32 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg shadow-xl transform rotate-y-45 translate-z-12 group-hover:translate-z-20 transition-transform duration-500"
-                                    data-oid="r6zklp1"
+                                    data-oid="tqehgxe"
                                 >
                                     <div
                                         className="absolute inset-2 bg-black/30 rounded-lg flex items-center justify-center"
-                                        data-oid="lnetrwv"
+                                        data-oid="djm5e67"
                                     >
-                                        <div className="w-20 h-16 relative" data-oid="ip4772u">
+                                        <div className="w-20 h-16 relative" data-oid="5cov1a-">
                                             <div
                                                 className="absolute bottom-0 left-0 w-4 h-4 bg-green-400 rounded-sm"
-                                                data-oid="t130yxm"
+                                                data-oid="mr0uljv"
                                             ></div>
                                             <div
                                                 className="absolute bottom-4 left-4 w-4 h-8 bg-teal-400 rounded-sm"
-                                                data-oid="ddn4ni4"
+                                                data-oid="q5.mhsd"
                                             ></div>
                                             <div
                                                 className="absolute bottom-8 left-8 w-4 h-12 bg-cyan-400 rounded-sm"
-                                                data-oid="6pt4ybx"
+                                                data-oid="8e_y.-z"
                                             ></div>
                                             <div
                                                 className="absolute bottom-12 left-12 w-4 h-16 bg-blue-400 rounded-sm"
-                                                data-oid="0vwivdi"
+                                                data-oid=".zq9jas"
                                             ></div>
                                         </div>
                                     </div>
                                     <div
                                         className="absolute -bottom-12 left-0 right-0 text-center text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                                        data-oid="di2s4t_"
+                                        data-oid="ia4sk7n"
                                     >
                                         Growth Journey
                                     </div>
@@ -503,22 +513,22 @@ export default function Page() {
                 </div>
 
                 {/* Waitlist Section */}
-                <div className="py-12" data-oid="nysev5d">
-                    <div className="max-w-lg mx-auto relative" data-oid="80mhwcz">
+                <div className="py-12" data-oid="txcs0t0">
+                    <div className="max-w-lg mx-auto relative" data-oid=":.ukvm4">
                         {/* Floating testimonial bubbles */}
                         <div
                             className="absolute -top-16 -left-8 px-4 py-2 bg-white/10 backdrop-blur-md rounded-lg border border-white/20 transform -rotate-6 animate-float"
-                            data-oid="_yj7prp"
+                            data-oid="q_1.flm"
                         >
-                            <p className="text-white/90 text-sm" data-oid="viskvi-">
+                            <p className="text-white/90 text-sm" data-oid="2-i_225">
                                 &quot;This platform changed how I learn!&quot;
                             </p>
                         </div>
                         <div
                             className="absolute -bottom-12 -right-8 px-4 py-2 bg-white/10 backdrop-blur-md rounded-lg border border-white/20 transform rotate-3 animate-float animation-delay-1000"
-                            data-oid="8g3jt13"
+                            data-oid="lhi4ufl"
                         >
-                            <p className="text-white/90 text-sm" data-oid="m24aqlp">
+                            <p className="text-white/90 text-sm" data-oid="f0kmoea">
                                 &quot;The AI mentor understood exactly what I needed.&quot;
                             </p>
                         </div>
@@ -526,15 +536,15 @@ export default function Page() {
                         {/* Form container */}
                         <div
                             className="relative p-1 rounded-xl bg-gradient-to-r from-purple-500 via-orange-300 to-blue-500 animate-gradient-x"
-                            data-oid="qhymxip"
+                            data-oid="t9af-uh"
                         >
                             <div
                                 className="bg-black/40 backdrop-blur-xl p-8 rounded-lg"
-                                data-oid="ncybk50"
+                                data-oid="d2qvskh"
                             >
                                 <h2
                                     className="text-2xl font-bold text-white mb-6 text-center"
-                                    data-oid="vdv_fki"
+                                    data-oid="trmb0jq"
                                 >
                                     Join the Waitlist
                                 </h2>
@@ -542,13 +552,13 @@ export default function Page() {
                                 <form
                                     onSubmit={handleSubmit}
                                     className="space-y-4"
-                                    data-oid="se76v23"
+                                    data-oid="2x6f0xh"
                                 >
-                                    <div data-oid=".a1fnn8">
+                                    <div data-oid="4es173_">
                                         <label
                                             htmlFor="email"
                                             className="block text-white/80 mb-2"
-                                            data-oid="bkqe9ri"
+                                            data-oid="zpcamy2"
                                         >
                                             Email Address
                                         </label>
@@ -560,7 +570,7 @@ export default function Page() {
                                             className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white"
                                             placeholder="you@example.com"
                                             required
-                                            data-oid="7ayi9ws"
+                                            data-oid="33c-0ca"
                                         />
                                     </div>
 
@@ -568,17 +578,17 @@ export default function Page() {
                                         type="submit"
                                         disabled={isSubmitting}
                                         className={`w-full py-3 px-6 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 rounded-lg text-white font-medium transition-all duration-300 transform hover:scale-105 ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
-                                        data-oid="dxcqlcv"
+                                        data-oid=":h-5d60"
                                     >
                                         {isSubmitting ? 'Submitting...' : 'Secure Your Spot'}
                                     </button>
 
                                     <p
                                         className="text-white/60 text-sm text-center"
-                                        data-oid="20vegrd"
+                                        data-oid="_cy1cb:"
                                     >
                                         Be one of the first to experience the future of learning.
-                                        <br data-oid="oj1gv_d" />
+                                        <br data-oid="x7lwo-y" />
                                         {/* <span className="text-white/80">
                       Current position: #{position}
                       </span> */}
@@ -587,7 +597,7 @@ export default function Page() {
                                     {submitError && (
                                         <div
                                             className="mt-2 text-red-400 text-sm text-center"
-                                            data-oid="hakeq-7"
+                                            data-oid="dquiu04"
                                         >
                                             {submitError}
                                         </div>
@@ -598,12 +608,12 @@ export default function Page() {
                                 {showSuccess && (
                                     <div
                                         className="absolute inset-0 flex items-center justify-center bg-black/80 backdrop-blur-md rounded-lg z-10"
-                                        data-oid="0lcabj-"
+                                        data-oid="_-b4kno"
                                     >
-                                        <div className="text-center p-6" data-oid="4il.j2n">
+                                        <div className="text-center p-6" data-oid="huap6lm">
                                             <div
                                                 className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r from-green-400 to-blue-500 flex items-center justify-center"
-                                                data-oid="dq9nc1f"
+                                                data-oid=":6db7wg"
                                             >
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -611,27 +621,27 @@ export default function Page() {
                                                     fill="none"
                                                     viewBox="0 0 24 24"
                                                     stroke="currentColor"
-                                                    data-oid="vi8bfrz"
+                                                    data-oid="6y4y842"
                                                 >
                                                     <path
                                                         strokeLinecap="round"
                                                         strokeLinejoin="round"
                                                         strokeWidth={2}
                                                         d="M5 13l4 4L19 7"
-                                                        data-oid="4wibb5w"
+                                                        data-oid="br9kjdm"
                                                     />
                                                 </svg>
                                             </div>
                                             <h3
                                                 className="text-xl font-bold text-white mb-2"
-                                                data-oid="r76qjdo"
+                                                data-oid="rojs76o"
                                             >
                                                 You&apos;re In!
                                             </h3>
-                                            <p className="text-white/80 mb-4" data-oid="s_wkyb3">
+                                            <p className="text-white/80 mb-4" data-oid="cn80ism">
                                                 You&apos;re #{position} on our waitlist.
                                             </p>
-                                            <div className="animate-confetti" data-oid="p5-xttt">
+                                            <div className="animate-confetti" data-oid="0so_lz2">
                                                 🎉
                                             </div>
                                         </div>
@@ -643,39 +653,39 @@ export default function Page() {
                 </div>
 
                 {/* Bottom Section */}
-                <div className="py-12" data-oid="v7mou9m">
-                    <div className="max-w-4xl mx-auto" data-oid="izz.1nu">
+                <div className="py-12" data-oid="pzsvatl">
+                    <div className="max-w-4xl mx-auto" data-oid="2vv528v">
                         <h2
                             className="text-3xl font-bold text-white text-center mb-12"
-                            data-oid="n19b8pl"
+                            data-oid="3lu6_ea"
                         >
                             Your Learning Transformation
                         </h2>
 
                         <div
                             className="relative flex justify-center items-center w-full"
-                            data-oid="k7su1gh"
+                            data-oid=".c2:py2"
                         >
                             {/* Connection lines */}
                             <div
                                 className="absolute inset-0 flex items-center justify-center"
-                                data-oid="v3hpl3g"
+                                data-oid="._1-edo"
                             >
                                 <div
                                     className="bg-gradient-to-r from-purple-500 via-orange-300 to-blue-500 w-[95%] mb-[35px] h-px"
-                                    data-oid="7pdb_h6"
+                                    data-oid="_.blvv0"
                                 ></div>
                             </div>
 
                             {/* Milestones */}
                             <div
                                 className="relative flex items-center w-full justify-between pt-0 mt-0"
-                                data-oid="unq1-sa"
+                                data-oid="4_ubty6"
                             >
-                                <div className="flex flex-col items-center" data-oid="wynu1h2">
+                                <div className="flex flex-col items-center" data-oid="r3hqfii">
                                     <div
                                         className="w-12 h-12 rounded-full bg-purple-500 flex items-center justify-center mb-4 z-10"
-                                        data-oid="ep.8c3b"
+                                        data-oid="nbvqed2"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -683,29 +693,29 @@ export default function Page() {
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="pmsv5i5"
+                                            data-oid="de0-j9."
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                                                data-oid="qflym96"
+                                                data-oid="oreblon"
                                             />
                                         </svg>
                                     </div>
                                     <h3
                                         className="text-white font-medium text-center"
-                                        data-oid="l8evphc"
+                                        data-oid="mpzbwqg"
                                     >
                                         Join
                                     </h3>
                                 </div>
 
-                                <div className="flex flex-col items-center" data-oid="waz_lsa">
+                                <div className="flex flex-col items-center" data-oid="w.97l7.">
                                     <div
                                         className="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center mb-4 z-10"
-                                        data-oid="3oaj5_0"
+                                        data-oid="4y7e:yu"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -713,29 +723,29 @@ export default function Page() {
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="08qpk.j"
+                                            data-oid="mt60yt8"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                                                data-oid="f4tk0jx"
+                                                data-oid="ttd6so."
                                             />
                                         </svg>
                                     </div>
                                     <h3
                                         className="text-white font-medium text-center"
-                                        data-oid="ku70zjd"
+                                        data-oid="0w.fx:w"
                                     >
                                         Learn
                                     </h3>
                                 </div>
 
-                                <div className="flex flex-col items-center" data-oid="tirju-0">
+                                <div className="flex flex-col items-center" data-oid="xy:m_.-">
                                     <div
                                         className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center mb-4 z-10"
-                                        data-oid="vjlcj5h"
+                                        data-oid="j2uaul0"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -743,29 +753,29 @@ export default function Page() {
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="ylny6:r"
+                                            data-oid="iu7.nfh"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                                                data-oid="a6376q6"
+                                                data-oid="2izcj8t"
                                             />
                                         </svg>
                                     </div>
                                     <h3
                                         className="text-white font-medium text-center"
-                                        data-oid="jyd.i_b"
+                                        data-oid="tr10hk1"
                                     >
                                         Connect
                                     </h3>
                                 </div>
 
-                                <div className="flex flex-col items-center" data-oid="dch50zw">
+                                <div className="flex flex-col items-center" data-oid="uh21aru">
                                     <div
                                         className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center mb-4 z-10"
-                                        data-oid="hgd4rex"
+                                        data-oid="w1taf:u"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -773,20 +783,20 @@ export default function Page() {
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="u2omfd1"
+                                            data-oid="n4a.sm-"
                                         >
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={2}
                                                 d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-                                                data-oid="0sws1ae"
+                                                data-oid="08u0zy6"
                                             />
                                         </svg>
                                     </div>
                                     <h3
                                         className="text-white font-medium text-center"
-                                        data-oid="8x.38kv"
+                                        data-oid="0kaq5hc"
                                     >
                                         Grow
                                     </h3>
@@ -795,37 +805,37 @@ export default function Page() {
                         </div>
 
                         {/* Social proof counter */}
-                        <div className="mt-16 flex justify-center space-x-12" data-oid="q_zhvwg">
-                            <div className="text-center" data-oid="lhdy474">
+                        <div className="mt-16 flex justify-center space-x-12" data-oid="1b:-md:">
+                            <div className="text-center" data-oid="t_rcqfi">
                                 <div
                                     className="text-4xl font-bold text-white mb-2 animate-count"
-                                    data-oid="-ftxp4m"
+                                    data-oid="nj2b6j2"
                                 >
                                     5000+
                                 </div>
-                                <p className="text-white/70" data-oid="mbyeyh-">
+                                <p className="text-white/70" data-oid="o6d_91k">
                                     Students Waiting
                                 </p>
                             </div>
-                            <div className="text-center" data-oid="jvp5xez">
+                            <div className="text-center" data-oid="7b3-.sm">
                                 <div
                                     className="text-4xl font-bold text-white mb-2 animate-count"
-                                    data-oid="m8bke-q"
+                                    data-oid="h6:74fc"
                                 >
                                     24
                                 </div>
-                                <p className="text-white/70" data-oid="jq6-kjj">
+                                <p className="text-white/70" data-oid="a6zrux8">
                                     AI Mentors
                                 </p>
                             </div>
-                            <div className="text-center" data-oid="qai7nff">
+                            <div className="text-center" data-oid="glsemyr">
                                 <div
                                     className="text-4xl font-bold text-white mb-2 animate-count"
-                                    data-oid="ai8jpox"
+                                    data-oid="z75tjgu"
                                 >
                                     100+
                                 </div>
-                                <p className="text-white/70" data-oid=":a0nu9z">
+                                <p className="text-white/70" data-oid="p577f5m">
                                     Learning Paths
                                 </p>
                             </div>
@@ -834,66 +844,82 @@ export default function Page() {
                 </div>
 
                 {/* Footer */}
-                <footer className="py-8 mt-12 border-t border-white/10" data-oid="ht1:un4">
+                <footer className="py-8 mt-12 border-t border-white/10" data-oid="ete16p_">
+                    <Image
+                        className="w-fit h-fit my-20"
+                        src="/images/white_w_name.png"
+                        alt="blob_white.svg"
+                        width={500}
+                        height={500}
+                        objectFit="contain"
+                        data-oid="a645rkw"
+                    />
+
                     <div
                         className="flex flex-col md:flex-row justify-between items-center"
-                        data-oid="e1ubbsz"
+                        data-oid="yzkha8y"
                     >
-                        <div className="text-white/70 mb-4 md:mb-0" data-oid="xzu226b">
+                        <div className="text-white/70 mb-4 md:mb-0" data-oid="t5qieuz">
                             © 2025 Excentrix. All rights reserved.
                         </div>
-                        <div className="flex space-x-6" data-oid="s-w008v">
+                        <div className="flex space-x-6" data-oid="p55bph8">
                             <a
-                                href="#"
+                                href="https://www.linkedin.com/company/excentrixio/"
                                 className="text-white/70 hover:text-white transition-colors duration-300"
-                                data-oid="j2_6i:g"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-oid="gv3ia6z"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-6 w-6"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
-                                    data-oid="an9yk05"
+                                    data-oid="q.5r4oj"
                                 >
                                     <path
-                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-                                        data-oid="6_cbrxo"
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                                        data-oid="vd_ygh6"
                                     />
                                 </svg>
                             </a>
                             <a
-                                href="#"
+                                href="https://www.instagram.com/excentrixio"
                                 className="text-white/70 hover:text-white transition-colors duration-300"
-                                data-oid="6cel6ay"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-oid="e6f_2x4"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-6 w-6"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
-                                    data-oid="_gebvce"
+                                    data-oid="m3z9akx"
                                 >
                                     <path
-                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                                        data-oid="11ksbnq"
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                                        data-oid="a7urkt7"
                                     />
                                 </svg>
                             </a>
                             <a
-                                href="#"
+                                href="https://excentrix.tech"
                                 className="text-white/70 hover:text-white transition-colors duration-300"
-                                data-oid="exd-_0j"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-oid="nbyn-2p"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-6 w-6"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
-                                    data-oid="nbn.53e"
+                                    data-oid="maf_da-"
                                 >
                                     <path
-                                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
-                                        data-oid="o.3g.z9"
+                                        d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm1 16.057v-3.057h2.994c-.059 1.143-.212 2.24-.456 3.279-.823-.12-1.674-.188-2.538-.222zm1.957 2.162c-.499 1.33-1.159 2.497-1.957 3.456v-3.62c.666.028 1.319.081 1.957.164zm-1.957-7.219v-3.015c.868-.034 1.721-.103 2.548-.224.238 1.027.389 2.111.446 3.239h-2.994zm0-5.014v-3.661c.806.969 1.471 2.15 1.971 3.496-.642.084-1.3.137-1.971.165zm2.703-3.267c1.237.496 2.354 1.228 3.29 2.146-.642.234-1.311.442-2.019.607-.344-.992-.775-1.91-1.271-2.753zm-7.241 13.56c-.244-1.039-.398-2.136-.456-3.279h2.994v3.057c-.865.034-1.714.102-2.538.222zm2.538 1.776v3.62c-.798-.959-1.458-2.126-1.957-3.456.638-.083 1.291-.136 1.957-.164zm-2.994-7.055c.057-1.128.207-2.212.446-3.239.827.121 1.68.19 2.548.224v3.015h-2.994zm1.024-5.179c.5-1.346 1.165-2.527 1.97-3.496v3.661c-.671-.028-1.329-.081-1.97-.165zm-2.005-.35c-.708-.165-1.377-.373-2.018-.607.937-.918 2.053-1.65 3.29-2.146-.496.844-.927 1.762-1.272 2.753zm-.549 1.918c-.264 1.151-.434 2.36-.492 3.611h-3.933c.165-1.658.739-3.197 1.617-4.518.88.361 1.816.67 2.808.907zm.009 9.262c-.988.236-1.92.542-2.797.9-.89-1.328-1.471-2.879-1.637-4.551h3.934c.058 1.265.231 2.488.5 3.651zm.553 1.917c.342.976.768 1.881 1.257 2.712-1.223-.49-2.326-1.211-3.256-2.115.636-.229 1.299-.435 1.999-.597zm9.924 0c.7.163 1.362.367 1.999.597-.931.903-2.034 1.625-3.257 2.116.489-.832.915-1.737 1.258-2.713zm.553-1.917c.27-1.163.442-2.386.501-3.651h3.934c-.167 1.672-.748 3.223-1.638 4.551-.877-.358-1.81-.664-2.797-.9zm.501-5.651c-.058-1.251-.229-2.46-.492-3.611.992-.237 1.929-.546 2.809-.907.877 1.321 1.451 2.86 1.616 4.518h-3.933z"
+                                        data-oid="4pgwm65"
                                     />
                                 </svg>
                             </a>
@@ -903,7 +929,7 @@ export default function Page() {
             </div>
 
             {/* Custom CSS for animations */}
-            <style jsx data-oid="anjepyg">{`
+            <style jsx data-oid="v4a:39z">{`
                 @keyframes blob {
                     0%,
                     100% {
