@@ -5,7 +5,47 @@ import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
+export async function generateMetadata(): Promise<Metadata> {
+    const metadata: Metadata = {
+        metadataBase: new URL('https://horizon.excentrix.tech'),
+        title: 'Horizon | Where AI mentorship meets collaborative learning',
+        description:
+            'Join Horizon to experience the future of learning with AI mentors and a collaborative community. Sign up for our waitlist today.',
+
+        openGraph: {
+            type: 'website',
+            title: 'Horizon | Where AI mentorship meets collaborative learning',
+            description:
+                'Join Horizon to experience the future of learning with AI mentors and a collaborative community. Sign up for our waitlist today.',
+            url: '/',
+            siteName: 'Horizon',
+            images: [
+                {
+                    url: '/images/og-horizon.png',
+                    width: 1280,
+                    height: 720,
+                    alt: 'Horizon - AI mentorship platform',
+                },
+            ],
+
+            locale: 'en_US',
+        },
+
+        twitter: {
+            card: 'summary_large_image',
+            title: 'Horizon | Where AI mentorship meets collaborative learning',
+            description:
+                'Join Horizon to experience the future of learning with AI mentors and a collaborative community. Sign up for our waitlist today.',
+            creator: '@excentrix',
+            images: ['/images/og-horizon.png'],
+        },
+    };
+
+    return metadata;
+}
+
 export const metadata: Metadata = {
+    metadataBase: new URL('https://horizon.excentrix.tech'),
     title: 'Horizon | Where AI mentorship meets collaborative learning',
     description:
         'Join Horizon to experience the future of learning with AI mentors and a collaborative community. Sign up for our waitlist today.',
@@ -24,19 +64,19 @@ export const metadata: Metadata = {
         email: false,
         telephone: false,
     },
-    metadataBase: new URL('https://horizon.excentrix.tech'), // Replace with your actual domain
     alternates: {
         canonical: '/',
     },
     openGraph: {
+        type: 'website',
         title: 'Horizon | Where AI mentorship meets collaborative learning',
         description:
             'Join Horizon to experience the future of learning with AI mentors and a collaborative community. Sign up for our waitlist today.',
-        url: 'https://horizon.excentrix.tech', // Replace with your actual domain
+        url: '/',
         siteName: 'Horizon',
         images: [
             {
-                url: 'https://horizon.excentrix.tech/images/og-horizon.png', // Replace with your actual OG image
+                url: '/images/og-horizon.png',
                 width: 1280,
                 height: 720,
                 alt: 'Horizon - AI mentorship platform',
@@ -44,16 +84,16 @@ export const metadata: Metadata = {
         ],
 
         locale: 'en_US',
-        type: 'website',
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Horizon | Where AI mentorship meets collaborative learning',
         description:
             'Join Horizon to experience the future of learning with AI mentors and a collaborative community. Sign up for our waitlist today.',
-        images: ['https://horizon.excentrix.tech/images/og-horizon.png'], // Replace with your actual Twitter image
-        creator: '@excentrix', // Replace with your actual Twitter handle
+        creator: '@excentrix',
+        images: ['/images/og-horizon.png'],
     },
+
     robots: {
         index: true,
         follow: true,
