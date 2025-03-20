@@ -277,7 +277,7 @@ export default function Page() {
                         <Image
                             className="w-full h-fit hidden md:block"
                             src="/images/white_w_name.png"
-                            alt="blob_white.svg"
+                            alt="white_w_name.png"
                             width={500}
                             height={500}
                             objectFit="contain"
@@ -848,7 +848,7 @@ export default function Page() {
                     <Image
                         className="w-fit h-fit my-20"
                         src="/images/white_w_name.png"
-                        alt="blob_white.svg"
+                        alt="white_w_name.png"
                         width={500}
                         height={500}
                         objectFit="contain"
