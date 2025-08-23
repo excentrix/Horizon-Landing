@@ -782,7 +782,8 @@ export default function Page() {
                         data-oid="s27ju97"
                     >
                         <p data-oid="amsj-0z">
-                            &copy; 2024 Project Horizon. All rights reserved. | Registered in India
+                            &copy; 2024 Project Horizon. All rights reserved. | A product of
+                            Excentrix Ventures Private Limited | Registered in India
                         </p>
                     </div>
                 </div>
