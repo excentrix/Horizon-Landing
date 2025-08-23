@@ -91,7 +91,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ className = '' }) => {
             <span
                 key={index}
                 className={`text-lg ${index < rating ? 'text-yellow-400' : 'text-gray-300'}`}
-                data-oid="bf:qcnz"
+                data-oid="5cb:yq9"
             >
                 ⭐
             </span>
@@ -103,24 +103,24 @@ const Testimonials: React.FC<TestimonialsProps> = ({ className = '' }) => {
             ref={ref}
             className={`py-20 bg-gradient-to-br from-gray-50 to-gray-100 ${className}`}
             id="testimonials"
-            data-oid="yj-m:4n"
+            data-oid="rxk7bbr"
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="upbxb9s">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="26omx0j">
                 {/* Section Header */}
                 <motion.div
                     className="text-center mb-16"
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.6 }}
-                    data-oid="_93ve64"
+                    data-oid="kvb2zjy"
                 >
                     <h2
                         className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
-                        data-oid="brp6lr5"
+                        data-oid="2ybruwv"
                     >
                         What Our Customers Say
                     </h2>
-                    <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-oid="grgzbdf">
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-oid="3mseut2">
                         Join thousands of satisfied customers who have transformed their digital
                         experiences with Onlook.
                     </p>
@@ -129,7 +129,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ className = '' }) => {
                 {/* Testimonials Grid */}
                 <div
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-                    data-oid="5yfipft"
+                    data-oid="za1m9dk"
                 >
                     {testimonials.map((testimonial, index) => (
                         <motion.div
@@ -142,34 +142,34 @@ const Testimonials: React.FC<TestimonialsProps> = ({ className = '' }) => {
                                 delay: index * 0.1,
                             }}
                             whileHover={{ y: -5 }}
-                            data-oid="6fa:nhz"
+                            data-oid="9d4:l6p"
                         >
                             {/* Rating */}
-                            <div className="flex mb-4" data-oid="gwh3zm7">
+                            <div className="flex mb-4" data-oid="hakm8bg">
                                 {renderStars(testimonial.rating)}
                             </div>
 
                             {/* Content */}
                             <blockquote
                                 className="text-gray-700 text-lg leading-relaxed mb-6 italic"
-                                data-oid="-ydjvyw"
+                                data-oid="8uw:kj9"
                             >
                                 "{testimonial.content}"
                             </blockquote>
 
                             {/* Author */}
-                            <div className="flex items-center" data-oid="sn4i98g">
+                            <div className="flex items-center" data-oid="_8g6-vq">
                                 <div
                                     className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-2xl mr-4"
-                                    data-oid="79q0:2_"
+                                    data-oid="hzx13xi"
                                 >
                                     {testimonial.avatar}
                                 </div>
-                                <div data-oid="kbi2-le">
-                                    <div className="font-semibold text-gray-900" data-oid="yhvzr3q">
+                                <div data-oid="n:h2unb">
+                                    <div className="font-semibold text-gray-900" data-oid="-4u.kry">
                                         {testimonial.name}
                                     </div>
-                                    <div className="text-sm text-gray-600" data-oid="p.vjic_">
+                                    <div className="text-sm text-gray-600" data-oid="v0l_n8p">
                                         {testimonial.role} at {testimonial.company}
                                     </div>
                                 </div>
@@ -184,19 +184,19 @@ const Testimonials: React.FC<TestimonialsProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.6, delay: 0.6 }}
-                    data-oid="4-ruecc"
+                    data-oid="1.64r::"
                 >
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4" data-oid="vyv73-b">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4" data-oid="jq7_3f_">
                         Ready to join them?
                     </h3>
-                    <p className="text-gray-600 mb-8" data-oid="vth-lht">
+                    <p className="text-gray-600 mb-8" data-oid="epgv7h9">
                         Start your journey with Onlook today and see the difference for yourself.
                     </p>
                     <motion.button
                         className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        data-oid="gqbe36-"
+                        data-oid="jyai:07"
                     >
                         Get Started Free
                     </motion.button>

@@ -67,7 +67,7 @@ const Counter: React.FC<CounterProps> = ({
         const digits = formatNumber(num).split('');
 
         return (
-            <div className="flex items-center justify-center" data-oid="6jqyalf">
+            <div className="flex items-center justify-center" data-oid="r._lxni">
                 {digits.map((digit, index) => (
                     <motion.div
                         key={index}
@@ -86,7 +86,7 @@ const Counter: React.FC<CounterProps> = ({
                             delay: delay + index * 0.1,
                             ease: 'easeOut',
                         }}
-                        data-oid="wv5cozk"
+                        data-oid="x:fj-21"
                     >
                         {digit}
                         {/* Subtle shadow effect */}
@@ -96,7 +96,7 @@ const Counter: React.FC<CounterProps> = ({
                                 textShadow: `2px 2px 4px rgba(0,0,0,0.3)`,
                                 opacity: 0.5,
                             }}
-                            data-oid="28o_376"
+                            data-oid="boc_8k9"
                         >
                             {digit}
                         </div>
@@ -113,7 +113,7 @@ const Counter: React.FC<CounterProps> = ({
             style={{
                 minHeight: `${fontSize + padding * 2}px`,
             }}
-            data-oid="m42ba:8"
+            data-oid="2v5brom"
         >
             {renderDigits(count)}
         </div>

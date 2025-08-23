@@ -135,12 +135,12 @@ const Aurora: React.FC<AuroraProps> = ({
     }, [colorStops, blend, amplitude, speed]);
 
     return (
-        <div className={`absolute inset-0 overflow-hidden ${className}`} data-oid="7h6359j">
+        <div className={`absolute inset-0 overflow-hidden ${className}`} data-oid="g8ztwrv">
             <canvas
                 ref={canvasRef}
                 className="w-full h-full"
                 style={{ display: 'block' }}
-                data-oid="p2zzmwx"
+                data-oid="6em5kw6"
             />
         </div>
     );

@@ -137,8 +137,8 @@ const SplitText: React.FC<SplitTextProps> = ({
     }, [animateText, threshold, rootMargin]);
 
     return (
-        <div ref={containerRef} className={`${className}`} style={{ textAlign }} data-oid="f_x7ctp">
-            <div ref={textRef} className="inline-block" data-oid="gekbcu0">
+        <div ref={containerRef} className={`${className}`} style={{ textAlign }} data-oid="fkp5nyd">
+            <div ref={textRef} className="inline-block" data-oid="dz8ey3u">
                 {text}
             </div>
         </div>

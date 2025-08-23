@@ -171,7 +171,7 @@ const MagicBento: React.FC<MagicBentoProps> = ({
         <div
             ref={containerRef}
             className={`relative w-full max-w-6xl mx-auto p-6 ${className}`}
-            data-oid="m_ms_19"
+            data-oid="szd2tx4"
         >
             {/* Spotlight effect */}
             {enableSpotlight && (
@@ -180,12 +180,12 @@ const MagicBento: React.FC<MagicBentoProps> = ({
                     style={{
                         background: `radial-gradient(circle ${spotlightRadius}px at ${mousePosition.x}px ${mousePosition.y}px, rgba(${glowColor}, 0.1) 0%, transparent 50%)`,
                     }}
-                    data-oid="voz01ea"
+                    data-oid="s3r3dpu"
                 />
             )}
 
             {/* Grid container */}
-            <div className="grid grid-cols-4 gap-4 auto-rows-fr" data-oid="319qjtj">
+            <div className="grid grid-cols-4 gap-4 auto-rows-fr" data-oid="joy0f:k">
                 {bentoItems.map((item) => (
                     <div
                         key={item.id}
@@ -205,7 +205,7 @@ const MagicBento: React.FC<MagicBentoProps> = ({
                                     ? `perspective(1000px) rotateX(${(mousePosition.y - 200) * 0.01}deg) rotateY(${(mousePosition.x - 200) * 0.01}deg)`
                                     : 'perspective(1000px) rotateX(0deg) rotateY(0deg)',
                         }}
-                        data-oid="5zw7nk:"
+                        data-oid="a4qx:1:"
                     >
                         {/* Background gradient */}
                         <div
@@ -213,31 +213,31 @@ const MagicBento: React.FC<MagicBentoProps> = ({
                 absolute inset-0 rounded-2xl bg-gradient-to-br ${item.color}
                 transition-all duration-300 group-hover:scale-105
               `}
-                            data-oid="792t6c6"
+                            data-oid="_r6sjxs"
                         />
 
                         {/* Content */}
                         <div
                             className="relative z-10 p-6 h-full flex flex-col justify-center items-center text-white"
-                            data-oid="spzyzk-"
+                            data-oid=".mg2_m5"
                         >
                             <div
                                 className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300"
-                                data-oid="wqm667n"
+                                data-oid="skqfv4j"
                             >
                                 {item.icon}
                             </div>
 
                             <h3
                                 className="text-xl font-bold mb-2 text-center group-hover:scale-105 transition-transform duration-300"
-                                data-oid="4nk53dv"
+                                data-oid="fs_nxbh"
                             >
                                 {item.title}
                             </h3>
 
                             <p
                                 className="text-sm text-center opacity-90 group-hover:opacity-100 transition-opacity duration-300"
-                                data-oid="zd0.xee"
+                                data-oid="9hsl_r5"
                             >
                                 {item.description}
                             </p>
@@ -257,7 +257,7 @@ const MagicBento: React.FC<MagicBentoProps> = ({
                                             ? `0 0 20px rgba(${glowColor}, 0.5)`
                                             : 'none',
                                 }}
-                                data-oid="c:ag2b:"
+                                data-oid=":t.on70"
                             />
                         )}
                     </div>
@@ -268,7 +268,7 @@ const MagicBento: React.FC<MagicBentoProps> = ({
             {enableStars && (
                 <div
                     className="absolute inset-0 pointer-events-none overflow-hidden"
-                    data-oid="6u._dyx"
+                    data-oid="r9pd8bo"
                 >
                     {Array.from({ length: particleCount }).map((_, i) => (
                         <div
@@ -280,7 +280,7 @@ const MagicBento: React.FC<MagicBentoProps> = ({
                                 animationDelay: `${Math.random() * 2}s`,
                                 animationDuration: `${2 + Math.random() * 2}s`,
                             }}
-                            data-oid="8xazv9f"
+                            data-oid="m1ij5ir"
                         />
                     ))}
                 </div>

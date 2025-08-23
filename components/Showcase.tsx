@@ -44,24 +44,24 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
             ref={ref}
             className={`py-20 bg-gradient-to-br from-gray-50 to-gray-100 ${className}`}
             id="showcase"
-            data-oid=".2-mp3:"
+            data-oid="xsdwe:r"
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="v2-og-l">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="6vtisxj">
                 {/* Section Header */}
                 <motion.div
                     className="text-center mb-20"
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.6 }}
-                    data-oid="wnirf-y"
+                    data-oid="brl6r6k"
                 >
                     <h2
                         className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
-                        data-oid="9stv-v."
+                        data-oid="js8hz3w"
                     >
                         See Onlook in Action
                     </h2>
-                    <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-oid="_:y0q6d">
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-oid="0ga-7tn">
                         Explore real-world examples of how our platform transforms digital
                         experiences and drives business results.
                     </p>
@@ -73,7 +73,7 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
-                    data-oid="_zpjo-:"
+                    data-oid="59ds4v6"
                 >
                     <MagicBento
                         enableSpotlight={true}
@@ -84,7 +84,7 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
                         spotlightRadius={400}
                         particleCount={15}
                         glowColor="59, 130, 246"
-                        data-oid="uk157lj"
+                        data-oid="fo:3dg5"
                     />
                 </motion.div>
 
@@ -94,23 +94,23 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.6, delay: 0.4 }}
-                    data-oid="q8uub6k"
+                    data-oid="q9elri4"
                 >
                     <h3
                         className="text-3xl font-bold text-gray-900 text-center mb-12"
-                        data-oid="o0f5luz"
+                        data-oid="xvjukk7"
                     >
                         Featured Projects
                     </h3>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="d40.ijj">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="wz60lq.">
                         {showcaseItems.map((item, index) => (
                             <motion.div
                                 key={item.id}
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                                 transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
-                                data-oid="g1tv8z_"
+                                data-oid="pgo5fcz"
                             >
                                 <TiltedCard
                                     imageSrc={item.image}
@@ -124,22 +124,22 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
                                     scaleOnHover={1.05}
                                     showTooltip={true}
                                     overlayContent={
-                                        <div data-oid="9m_nvd5">
+                                        <div data-oid="zf-plno">
                                             <p
                                                 className="text-sm opacity-90 mb-2"
-                                                data-oid="dpngf:7"
+                                                data-oid="ad:j7on"
                                             >
                                                 {item.description}
                                             </p>
                                             <span
                                                 className="inline-block bg-white/20 px-3 py-1 rounded-full text-xs font-medium"
-                                                data-oid="lke-eb:"
+                                                data-oid="bc:wly_"
                                             >
                                                 {item.category}
                                             </span>
                                         </div>
                                     }
-                                    data-oid="44md0i:"
+                                    data-oid="29j2:k8"
                                 />
                             </motion.div>
                         ))}
@@ -152,13 +152,13 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.6, delay: 0.8 }}
-                    data-oid="x1.:f8-"
+                    data-oid="rotu.5g"
                 >
-                    <h3 className="text-2xl font-bold text-gray-900 mb-8" data-oid="7_:day7">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-8" data-oid="14iu3:i">
                         Built with Modern Technologies
                     </h3>
 
-                    <div className="flex flex-wrap justify-center gap-8" data-oid="4l.2c_l">
+                    <div className="flex flex-wrap justify-center gap-8" data-oid="sq4gv0:">
                         {[
                             { name: 'React', icon: '⚛️' },
                             { name: 'TypeScript', icon: '📘' },
@@ -176,12 +176,12 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
                                 }
                                 transition={{ duration: 0.5, delay: 1 + index * 0.1 }}
                                 whileHover={{ scale: 1.1, y: -5 }}
-                                data-oid="2-qgqpw"
+                                data-oid="pt1bf9h"
                             >
-                                <div className="text-4xl mb-2" data-oid="8_yip_:">
+                                <div className="text-4xl mb-2" data-oid="fprxv.b">
                                     {tech.icon}
                                 </div>
-                                <span className="text-gray-700 font-medium" data-oid="::tmp0i">
+                                <span className="text-gray-700 font-medium" data-oid="56nndq9">
                                     {tech.name}
                                 </span>
                             </motion.div>
@@ -195,31 +195,31 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.6, delay: 1.2 }}
-                    data-oid="k78ta0f"
+                    data-oid="9t.f-wp"
                 >
                     <div
                         className="bg-white rounded-3xl p-12 shadow-xl border border-gray-100"
-                        data-oid="dhnb-dj"
+                        data-oid="agodzvx"
                     >
-                        <h3 className="text-3xl font-bold text-gray-900 mb-4" data-oid="a0djem9">
+                        <h3 className="text-3xl font-bold text-gray-900 mb-4" data-oid="5hrsko8">
                             Ready to Build Something Amazing?
                         </h3>
                         <p
                             className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto"
-                            data-oid="y8vb9p6"
+                            data-oid="a5uo390"
                         >
                             Join thousands of developers and designers who are already creating
                             incredible digital experiences with Onlook.
                         </p>
                         <div
                             className="flex flex-col sm:flex-row gap-4 justify-center"
-                            data-oid="wlnifuv"
+                            data-oid="st6_37c"
                         >
                             <motion.button
                                 className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                data-oid="9_y-ppt"
+                                data-oid="p52exob"
                             >
                                 Start Building Now
                             </motion.button>
@@ -227,7 +227,7 @@ const Showcase: React.FC<ShowcaseProps> = ({ className = '' }) => {
                                 className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full text-lg font-semibold hover:border-gray-400 transition-colors duration-200"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                data-oid="esktg9f"
+                                data-oid="g.d:93l"
                             >
                                 View Documentation
                             </motion.button>

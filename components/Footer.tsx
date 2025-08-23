@@ -62,35 +62,35 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
         <footer
             ref={ref}
             className={`bg-gradient-to-br from-charcoal via-gray-800 to-charcoal text-white ${className}`}
-            data-oid="npgvh.t"
+            data-oid="ex1ci6q"
         >
-            <div className="container-horizon" data-oid="-asy7pt">
+            <div className="container-horizon" data-oid="x95s7v7">
                 {/* Main Footer Content */}
-                <div className="py-20" data-oid="glty217">
-                    <div className="grid lg:grid-cols-2 gap-16" data-oid=":r9dgfe">
+                <div className="py-20" data-oid="t99gx02">
+                    <div className="grid lg:grid-cols-2 gap-16" data-oid="mwpesh4">
                         {/* Left Column - Brand & Description */}
                         <motion.div
                             className="space-y-6"
                             initial={{ opacity: 0, y: 30 }}
                             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                             transition={{ duration: 0.8 }}
-                            data-oid="9wfpv1p"
+                            data-oid="iifq.pi"
                         >
                             {/* Logo */}
-                            <div className="flex items-center space-x-3" data-oid="0-5rjqf">
+                            <div className="flex items-center space-x-3" data-oid="nwhl8hp">
                                 <div
                                     className="w-12 h-12 bg-gradient-to-br from-soft-orange to-orange-600 rounded-xl flex items-center justify-center"
-                                    data-oid="ktb9jf1"
+                                    data-oid="m:g:wxv"
                                 >
-                                    <span className="text-2xl" data-oid="tmxzup5">
+                                    <span className="text-2xl" data-oid="2.-tn57">
                                         🧠
                                     </span>
                                 </div>
-                                <div data-oid="6b_izq_">
-                                    <h3 className="text-2xl font-bold" data-oid="vdttqgl">
+                                <div data-oid="ufr4ro2">
+                                    <h3 className="text-2xl font-bold" data-oid=".4b8vo6">
                                         Project Horizon
                                     </h3>
-                                    <p className="text-sm text-gray-400" data-oid="9:ok2ye">
+                                    <p className="text-sm text-gray-400" data-oid="q0itnea">
                                         Your Personal AI Mentor
                                     </p>
                                 </div>
@@ -99,7 +99,7 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                             {/* Description */}
                             <p
                                 className="text-lg text-gray-300 leading-relaxed max-w-md"
-                                data-oid="m_2nxik"
+                                data-oid="_c:.n5a"
                             >
                                 We're solving Bloom's 2 Sigma Problem by bringing personalized AI
                                 mentoring to every student. Because everyone deserves the guidance
@@ -107,7 +107,7 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                             </p>
 
                             {/* Social Links */}
-                            <div className="flex space-x-4" data-oid=":25pkpm">
+                            <div className="flex space-x-4" data-oid="bwr6oey">
                                 {socialLinks.map((social, index) => (
                                     <motion.a
                                         key={social.name}
@@ -121,7 +121,7 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                                         }
                                         transition={{ duration: 0.4, delay: 0.2 + index * 0.1 }}
                                         whileHover={{ y: -2, scale: 1.05 }}
-                                        data-oid="sytzmuc"
+                                        data-oid="z8y9sz5"
                                     >
                                         {social.icon}
                                     </motion.a>
@@ -131,25 +131,25 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                             {/* Newsletter Signup */}
                             <div
                                 className="bg-white/10 rounded-2xl p-6 border border-white/20"
-                                data-oid="cua-uwx"
+                                data-oid="8xym1lh"
                             >
-                                <h4 className="font-semibold mb-3" data-oid="48eyr-c">
+                                <h4 className="font-semibold mb-3" data-oid="xf43ebw">
                                     Stay Updated
                                 </h4>
-                                <p className="text-sm text-gray-400 mb-4" data-oid="ylntkwd">
+                                <p className="text-sm text-gray-400 mb-4" data-oid="pwsoflk">
                                     Get the latest updates about Project Horizon and AI education
                                 </p>
-                                <div className="flex space-x-2" data-oid="ha9_s5q">
+                                <div className="flex space-x-2" data-oid="bg-36wl">
                                     <input
                                         type="email"
                                         placeholder="Enter your email"
                                         className="flex-1 px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-soft-orange focus:border-transparent"
-                                        data-oid="uml9d-l"
+                                        data-oid="2bds2jo"
                                     />
 
                                     <button
                                         className="px-4 py-2 bg-soft-orange text-white rounded-lg hover:bg-orange-600 transition-colors duration-300"
-                                        data-oid="khii9u:"
+                                        data-oid="4s44qrw"
                                     >
                                         Subscribe
                                     </button>
@@ -163,14 +163,14 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                             initial={{ opacity: 0, y: 30 }}
                             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                             transition={{ duration: 0.8, delay: 0.2 }}
-                            data-oid="li558j:"
+                            data-oid="bdnest7"
                         >
                             {footerSections.map((section, sectionIndex) => (
-                                <div key={section.title} className="space-y-4" data-oid="i478w32">
-                                    <h4 className="font-semibold text-lg" data-oid="6r414t_">
+                                <div key={section.title} className="space-y-4" data-oid="hhupc63">
+                                    <h4 className="font-semibold text-lg" data-oid="me45tgy">
                                         {section.title}
                                     </h4>
-                                    <ul className="space-y-2" data-oid="0:99csx">
+                                    <ul className="space-y-2" data-oid="dwi0pde">
                                         {section.links.map((link, linkIndex) => (
                                             <motion.li
                                                 key={link.name}
@@ -185,12 +185,12 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                                                     delay:
                                                         0.4 + sectionIndex * 0.1 + linkIndex * 0.05,
                                                 }}
-                                                data-oid="2w75k32"
+                                                data-oid=".csotj_"
                                             >
                                                 <a
                                                     href={link.href}
                                                     className="text-gray-400 hover:text-soft-orange transition-colors duration-300 text-sm"
-                                                    data-oid="743cav7"
+                                                    data-oid="307rqvk"
                                                 >
                                                     {link.name}
                                                 </a>
@@ -209,37 +209,37 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                     initial={{ opacity: 0 }}
                     animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
-                    data-oid="ufi9ujv"
+                    data-oid="uy_02qd"
                 >
                     <div
                         className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0"
-                        data-oid="w6yn.g:"
+                        data-oid="si-yoid"
                     >
                         {/* Copyright */}
-                        <div className="text-gray-400 text-sm" data-oid="l1pw5d.">
-                            © 2024 Project Horizon. All rights reserved.
+                        <div className="text-gray-400 text-sm" data-oid="200vu_m">
+                            © 2025 Project Horizon. All rights reserved.
                         </div>
 
                         {/* Additional Links */}
-                        <div className="flex space-x-6 text-sm" data-oid="f:shf_3">
+                        <div className="flex space-x-6 text-sm" data-oid=".fa22r2">
                             <a
                                 href="#privacy"
                                 className="text-gray-400 hover:text-soft-orange transition-colors duration-300"
-                                data-oid="t_2:cq7"
+                                data-oid="7xo4fsz"
                             >
                                 Privacy Policy
                             </a>
                             <a
                                 href="#terms"
                                 className="text-gray-400 hover:text-soft-orange transition-colors duration-300"
-                                data-oid="0doe24q"
+                                data-oid="148a.c0"
                             >
                                 Terms of Service
                             </a>
                             <a
                                 href="#cookies"
                                 className="text-gray-400 hover:text-soft-orange transition-colors duration-300"
-                                data-oid="--:fwey"
+                                data-oid="ov-cn0-"
                             >
                                 Cookie Policy
                             </a>
@@ -248,7 +248,7 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                         {/* Launch Badge */}
                         <div
                             className="bg-soft-orange/20 text-soft-orange px-4 py-2 rounded-full text-sm font-medium border border-soft-orange/30"
-                            data-oid="1cglser"
+                            data-oid="rz8.ybx"
                         >
                             🚀 Launching Q4 2025
                         </div>
@@ -261,20 +261,20 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                     transition={{ duration: 0.8, delay: 0.8 }}
-                    data-oid="xr9_g.f"
+                    data-oid="3g:mxkj"
                 >
-                    <div className="text-center" data-oid="fss-4hx">
-                        <p className="text-gray-400 text-sm mb-4" data-oid="ng0v1d6">
+                    <div className="text-center" data-oid="k5_-geo">
+                        <p className="text-gray-400 text-sm mb-4" data-oid="sif4-ie">
                             Trusted by students from 50+ colleges across India
                         </p>
                         <div
                             className="flex justify-center space-x-8 text-xs text-gray-500"
-                            data-oid="64t_1he"
+                            data-oid="imgn1mi"
                         >
-                            <span data-oid="2dre53m">🔒 SOC 2 Compliant</span>
-                            <span data-oid="lghj76d">🛡️ GDPR Ready</span>
-                            <span data-oid=":pn4a92">⚡ 99.9% Uptime</span>
-                            <span data-oid="wl7iz.v">🌍 15+ Languages</span>
+                            <span data-oid="ric.ant">🔒 SOC 2 Compliant</span>
+                            <span data-oid="cm-fykq">🛡️ GDPR Ready</span>
+                            <span data-oid="9bhmbsj">⚡ 99.9% Uptime</span>
+                            <span data-oid="v2sfs.f">🌍 15+ Languages</span>
                         </div>
                     </div>
                 </motion.div>

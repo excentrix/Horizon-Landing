@@ -81,44 +81,44 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
             ref={ref}
             className={`py-32 bg-gradient-to-br from-charcoal via-gray-800 to-charcoal text-white ${className}`}
             id="waitlist"
-            data-oid="c7t92ba"
+            data-oid="ut_myki"
         >
-            <div className="container-horizon" data-oid="1sj.-w2">
+            <div className="container-horizon" data-oid="d247ae3">
                 {/* Section Header */}
                 <motion.div
                     className="text-center mb-20"
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.8 }}
-                    data-oid="_41di68"
+                    data-oid="6s1t6zl"
                 >
-                    <h2 className="text-4xl lg:text-5xl font-bold mb-6" data-oid="b7vu6zm">
+                    <h2 className="text-4xl lg:text-5xl font-bold mb-6" data-oid="y-c_8eo">
                         Join the{' '}
-                        <span className="text-soft-orange" data-oid="7-in2_s">
+                        <span className="text-soft-orange" data-oid="_zpk9t6">
                             Revolution
                         </span>
                     </h2>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="98qgmlz">
+                    <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid="vcdg:40">
                         Be among the first to experience the future of personalized AI mentoring.
                         Join our exclusive waitlist and get early access when we launch.
                     </p>
                 </motion.div>
 
-                <div className="grid lg:grid-cols-2 gap-16 items-start" data-oid="lcozfxc">
+                <div className="grid lg:grid-cols-2 gap-16 items-start" data-oid="kegeekw">
                     {/* Left Column - Waitlist Form */}
                     <motion.div
                         className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20"
                         initial={{ opacity: 0, x: -50 }}
                         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        data-oid="h057e:k"
+                        data-oid="om3-_k2"
                     >
                         {!submitted ? (
-                            <form onSubmit={handleSubmit} className="space-y-6" data-oid="ybc5ywz">
-                                <div data-oid="n1ws-rs">
+                            <form onSubmit={handleSubmit} className="space-y-6" data-oid="-l2e:e4">
+                                <div data-oid="qoibwbe">
                                     <label
                                         className="block text-sm font-medium text-gray-300 mb-2"
-                                        data-oid="_qokjdg"
+                                        data-oid="_rgb87e"
                                     >
                                         Full Name *
                                     </label>
@@ -134,14 +134,14 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                         }
                                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-soft-orange focus:border-transparent"
                                         placeholder="Enter your full name"
-                                        data-oid="v:m.b1l"
+                                        data-oid="gc-pqh5"
                                     />
                                 </div>
 
-                                <div data-oid="bj99km9">
+                                <div data-oid="54o2:16">
                                     <label
                                         className="block text-sm font-medium text-gray-300 mb-2"
-                                        data-oid="ra-nrlg"
+                                        data-oid="2:7_uve"
                                     >
                                         Email Address *
                                     </label>
@@ -157,14 +157,14 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                         }
                                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-soft-orange focus:border-transparent"
                                         placeholder="your.email@college.edu"
-                                        data-oid="fg-:t7_"
+                                        data-oid="fv.nftq"
                                     />
                                 </div>
 
-                                <div data-oid="7nu_hrl">
+                                <div data-oid="80_o9ka">
                                     <label
                                         className="block text-sm font-medium text-gray-300 mb-2"
-                                        data-oid="3i6x5au"
+                                        data-oid=".bc_bce"
                                     >
                                         College/University *
                                     </label>
@@ -180,35 +180,35 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                         }
                                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-soft-orange focus:border-transparent"
                                         placeholder="Your college or university name"
-                                        data-oid="5g6g3ln"
+                                        data-oid="o11pr_w"
                                     />
                                 </div>
 
-                                <div data-oid="m-8gi9j">
+                                <div data-oid="kk9pi-h">
                                     <label
                                         className="block text-sm font-medium text-gray-300 mb-3"
-                                        data-oid="6rhiw49"
+                                        data-oid="8:a-fq6"
                                     >
                                         What interests you most? (Select all that apply)
                                     </label>
-                                    <div className="grid grid-cols-2 gap-3" data-oid="vp3:-of">
+                                    <div className="grid grid-cols-2 gap-3" data-oid="ow094gd">
                                         {interestOptions.map((interest) => (
                                             <label
                                                 key={interest}
                                                 className="flex items-center space-x-2 cursor-pointer"
-                                                data-oid="ju_isyx"
+                                                data-oid="vxt0d.3"
                                             >
                                                 <input
                                                     type="checkbox"
                                                     checked={formData.interests.includes(interest)}
                                                     onChange={() => handleInterestToggle(interest)}
                                                     className="w-4 h-4 text-soft-orange bg-white/10 border-white/20 rounded focus:ring-soft-orange focus:ring-2"
-                                                    data-oid="ltjsi.3"
+                                                    data-oid="q_go.36"
                                                 />
 
                                                 <span
                                                     className="text-sm text-gray-300"
-                                                    data-oid="i9x_6st"
+                                                    data-oid="n6ze3_b"
                                                 >
                                                     {interest}
                                                 </span>
@@ -217,10 +217,10 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                     </div>
                                 </div>
 
-                                <div data-oid="6t.xcez">
+                                <div data-oid="4yy5o8d">
                                     <label
                                         className="block text-sm font-medium text-gray-300 mb-2"
-                                        data-oid="x9_t60-"
+                                        data-oid="i-:657f"
                                     >
                                         Preferred Language
                                     </label>
@@ -233,14 +233,14 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                             }))
                                         }
                                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-soft-orange focus:border-transparent"
-                                        data-oid="d8h:mah"
+                                        data-oid="7cd6ziw"
                                     >
                                         {languageOptions.map((language) => (
                                             <option
                                                 key={language}
                                                 value={language}
                                                 className="bg-charcoal text-white"
-                                                data-oid=".y:.676"
+                                                data-oid="y6q0dmj"
                                             >
                                                 {language}
                                             </option>
@@ -252,40 +252,40 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                     type="submit"
                                     disabled={isSubmitting}
                                     className="w-full bg-gradient-to-r from-soft-orange to-orange-600 text-white font-semibold py-4 px-8 rounded-xl hover:from-orange-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
-                                    data-oid="f43v6dw"
+                                    data-oid="d9.urpv"
                                 >
                                     {isSubmitting ? 'Joining Waitlist...' : 'Join Waitlist'}
                                 </button>
 
-                                <p className="text-xs text-gray-400 text-center" data-oid="crffk:_">
+                                <p className="text-xs text-gray-400 text-center" data-oid="d8yrsbb">
                                     By joining, you agree to receive updates about Project Horizon.
                                     We respect your privacy and will never share your information.
                                 </p>
                             </form>
                         ) : (
-                            <div className="text-center py-8" data-oid="9c::y5m">
+                            <div className="text-center py-8" data-oid="sqm90yb">
                                 <div
                                     className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6"
-                                    data-oid="mryv71l"
+                                    data-oid="zwupg4:"
                                 >
-                                    <span className="text-3xl text-white" data-oid="m1ikdqf">
+                                    <span className="text-3xl text-white" data-oid="3m.oy.k">
                                         ✓
                                     </span>
                                 </div>
                                 <h3
                                     className="text-2xl font-bold text-white mb-4"
-                                    data-oid="pveu:-0"
+                                    data-oid="x-2avka"
                                 >
                                     Welcome to Project Horizon!
                                 </h3>
-                                <p className="text-gray-300 mb-6" data-oid="6y1g0aq">
+                                <p className="text-gray-300 mb-6" data-oid="zs922xs">
                                     You've successfully joined our waitlist. We'll notify you as
                                     soon as we launch and give you early access.
                                 </p>
                                 <button
                                     onClick={() => setSubmitted(false)}
                                     className="bg-white/10 text-white px-6 py-3 rounded-xl hover:bg-white/20 transition-colors duration-300"
-                                    data-oid="n:r.r9w"
+                                    data-oid="1glpu1z"
                                 >
                                     Join Another Email
                                 </button>
@@ -299,28 +299,28 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                         initial={{ opacity: 0, x: 50 }}
                         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
-                        data-oid="tj5yql1"
+                        data-oid="jjelp2u"
                     >
                         {/* Waitlist Progress */}
                         <div
                             className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20"
-                            data-oid="3nh413r"
+                            data-oid="629l2x-"
                         >
-                            <h3 className="text-xl font-bold mb-4" data-oid="829ukah">
+                            <h3 className="text-xl font-bold mb-4" data-oid="dhag5sg">
                                 Waitlist Progress
                             </h3>
-                            <div className="space-y-4" data-oid="v-4_t8a">
-                                <div className="flex justify-between text-sm" data-oid="1wqg:ja">
-                                    <span className="text-gray-300" data-oid="b-lbw0r">
+                            <div className="space-y-4" data-oid="myj016k">
+                                <div className="flex justify-between text-sm" data-oid="04:.vxe">
+                                    <span className="text-gray-300" data-oid="g0znc1n">
                                         Students Joined
                                     </span>
-                                    <span className="text-soft-orange font-bold" data-oid="rgrcbxd">
+                                    <span className="text-soft-orange font-bold" data-oid="ab1zuse">
                                         {waitlistStats.totalJoined.toLocaleString()}
                                     </span>
                                 </div>
                                 <div
                                     className="w-full bg-white/20 rounded-full h-3"
-                                    data-oid="2whoa76"
+                                    data-oid="72_khvy"
                                 >
                                     <motion.div
                                         className="bg-gradient-to-r from-soft-orange to-orange-600 h-3 rounded-full"
@@ -331,14 +331,14 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                                 : { width: 0 }
                                         }
                                         transition={{ duration: 1.5, delay: 0.8 }}
-                                        data-oid="gexn6om"
+                                        data-oid="ujmq_zv"
                                     />
                                 </div>
-                                <div className="flex justify-between text-sm" data-oid="9fvx0xh">
-                                    <span className="text-gray-300" data-oid="v-x-kiu">
+                                <div className="flex justify-between text-sm" data-oid="oa5tgxy">
+                                    <span className="text-gray-300" data-oid="dbazyiy">
                                         Goal
                                     </span>
-                                    <span className="text-gray-300" data-oid="d1ye.f.">
+                                    <span className="text-gray-300" data-oid=".g1k3hh">
                                         {waitlistStats.targetGoal.toLocaleString()}
                                     </span>
                                 </div>
@@ -348,12 +348,12 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                         {/* Recent Joiners */}
                         <div
                             className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20"
-                            data-oid="fz0scwk"
+                            data-oid="c8jmblb"
                         >
-                            <h3 className="text-xl font-bold mb-4" data-oid="7:6uplh">
+                            <h3 className="text-xl font-bold mb-4" data-oid="o::qd..">
                                 Recent Joiners
                             </h3>
-                            <div className="space-y-3" data-oid="03lt:1t">
+                            <div className="space-y-3" data-oid="jun4ghm">
                                 {recentJoiners.map((joiner, index) => (
                                     <motion.div
                                         key={index}
@@ -363,34 +363,34 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                             isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }
                                         }
                                         transition={{ duration: 0.4, delay: 1.0 + index * 0.1 }}
-                                        data-oid="h42tdco"
+                                        data-oid="xw4mbtk"
                                     >
                                         <div
                                             className="flex items-center space-x-3"
-                                            data-oid="qwvu2_2"
+                                            data-oid="2jn_up4"
                                         >
                                             <div
                                                 className="w-8 h-8 bg-gradient-to-br from-soft-orange to-orange-600 rounded-full flex items-center justify-center text-sm font-bold"
-                                                data-oid="35vk6n2"
+                                                data-oid="jyym6-3"
                                             >
                                                 {joiner.name.charAt(0)}
                                             </div>
-                                            <div data-oid="s:oyhqz">
+                                            <div data-oid="cj4_8em">
                                                 <p
                                                     className="text-white font-medium"
-                                                    data-oid="19__buu"
+                                                    data-oid=".mrs8uh"
                                                 >
                                                     {joiner.name}
                                                 </p>
                                                 <p
                                                     className="text-gray-400 text-sm"
-                                                    data-oid="iyzelf1"
+                                                    data-oid="119:uan"
                                                 >
                                                     {joiner.college}
                                                 </p>
                                             </div>
                                         </div>
-                                        <span className="text-gray-400 text-xs" data-oid="qkrv2:f">
+                                        <span className="text-gray-400 text-xs" data-oid="bdca34z">
                                             {joiner.time}
                                         </span>
                                     </motion.div>
@@ -401,12 +401,12 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                         {/* Benefits */}
                         <div
                             className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20"
-                            data-oid="9cgtyqm"
+                            data-oid="cdh_0im"
                         >
-                            <h3 className="text-xl font-bold mb-4" data-oid="jni3b_y">
+                            <h3 className="text-xl font-bold mb-4" data-oid="wjes.eb">
                                 What You'll Get
                             </h3>
-                            <div className="space-y-3" data-oid="bgyh1k9">
+                            <div className="space-y-3" data-oid="86n-3s3">
                                 {[
                                     'Early access to the platform',
                                     'Exclusive founding member benefits',
@@ -421,13 +421,14 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                             isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }
                                         }
                                         transition={{ duration: 0.4, delay: 1.2 + index * 0.1 }}
-                                        data-oid="53buv4l"
+                                        data-oid="405dosg"
                                     >
                                         <div
                                             className="w-2 h-2 bg-soft-orange rounded-full flex-shrink-0"
-                                            data-oid=".nt2bn9"
+                                            data-oid="8nq6qz."
                                         />
-                                        <span className="text-gray-300" data-oid="rc52tnx">
+
+                                        <span className="text-gray-300" data-oid="t7ua.:-">
                                             {benefit}
                                         </span>
                                     </motion.div>
@@ -443,24 +444,24 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.8, delay: 1.4 }}
-                    data-oid="5xkfyi5"
+                    data-oid="ssei6h0"
                 >
-                    <p className="text-xl text-gray-300 mb-6" data-oid="ebp7016">
+                    <p className="text-xl text-gray-300 mb-6" data-oid="po:smbt">
                         Don't miss out on the future of personalized learning
                     </p>
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center"
-                        data-oid="015q0g:"
+                        data-oid=".oyn.3b"
                     >
                         <button
                             className="bg-white text-charcoal font-semibold px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors duration-300"
-                            data-oid="l2mql7j"
+                            data-oid="mcm.dq:"
                         >
                             Share with Friends
                         </button>
                         <button
                             className="border-2 border-white/30 text-white px-8 py-4 rounded-xl hover:bg-white/10 transition-colors duration-300"
-                            data-oid="p7e5eq1"
+                            data-oid="f7acq9v"
                         >
                             Learn More
                         </button>

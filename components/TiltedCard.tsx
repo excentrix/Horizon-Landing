@@ -94,14 +94,14 @@ const TiltedCard: React.FC<TiltedCardProps> = ({
 
     if (isMobile && showMobileWarning) {
         return (
-            <div className="text-center p-4 text-gray-500" data-oid="9v2e10p">
-                <p data-oid="_junf4_">3D tilt effect is not available on mobile devices.</p>
+            <div className="text-center p-4 text-gray-500" data-oid="r8ip28.">
+                <p data-oid="kgpv2vj">3D tilt effect is not available on mobile devices.</p>
             </div>
         );
     }
 
     return (
-        <div className={`relative ${className}`} data-oid="1vrv.3.">
+        <div className={`relative ${className}`} data-oid="5-9ohws">
             <motion.div
                 ref={cardRef}
                 className="relative cursor-pointer"
@@ -115,7 +115,7 @@ const TiltedCard: React.FC<TiltedCardProps> = ({
                 onMouseEnter={handleMouseEnter}
                 whileHover={{ scale: isMobile ? 1 : scaleOnHover }}
                 transition={{ duration: 0.3 }}
-                data-oid="jz1q2g1"
+                data-oid="7o_6fu."
             >
                 {/* Main card container */}
                 <motion.div
@@ -126,7 +126,7 @@ const TiltedCard: React.FC<TiltedCardProps> = ({
                         rotateY: isMobile ? 0 : springRotateY,
                         scale,
                     }}
-                    data-oid="7y:cwur"
+                    data-oid="bmv.exk"
                 >
                     {/* Background image */}
                     <div
@@ -136,26 +136,26 @@ const TiltedCard: React.FC<TiltedCardProps> = ({
                             height: imageHeight,
                             width: imageWidth,
                         }}
-                        data-oid="94jb3na"
+                        data-oid="vyu-0x9"
                     />
 
                     {/* Overlay gradient */}
                     <div
                         className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"
-                        data-oid="z2.jr6k"
+                        data-oid="s_ng66n"
                     />
 
                     {/* Content overlay */}
                     {displayOverlayContent && (
                         <div
                             className="absolute bottom-0 left-0 right-0 p-6 text-white"
-                            data-oid="ug3wm:-"
+                            data-oid="2t:xrn."
                         >
-                            <h3 className="text-xl font-bold mb-2" data-oid="07ki7on">
+                            <h3 className="text-xl font-bold mb-2" data-oid="y9xyady">
                                 {captionText}
                             </h3>
                             {overlayContent && (
-                                <div className="text-sm opacity-90" data-oid="ch_ys-o">
+                                <div className="text-sm opacity-90" data-oid="qdvvi3m">
                                     {overlayContent}
                                 </div>
                             )}
@@ -170,7 +170,7 @@ const TiltedCard: React.FC<TiltedCardProps> = ({
                                 background: `linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.8) 45%, rgba(255,255,255,0.6) 50%, transparent 54%)`,
                                 transform: `translateX(${mousePosition.x * 100}px) translateY(${mousePosition.y * 100}px)`,
                             }}
-                            data-oid="pfgx93h"
+                            data-oid="cc2almz"
                         />
                     )}
 
@@ -178,7 +178,7 @@ const TiltedCard: React.FC<TiltedCardProps> = ({
                     {isHovered && (
                         <div
                             className="absolute inset-0 rounded-2xl ring-2 ring-white/20 ring-opacity-50"
-                            data-oid="u3-rvk7"
+                            data-oid="lz6kloo"
                         />
                     )}
                 </motion.div>
@@ -190,12 +190,12 @@ const TiltedCard: React.FC<TiltedCardProps> = ({
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
-                        data-oid="1oshpr."
+                        data-oid="498loku"
                     >
                         {captionText}
                         <div
                             className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-black/80"
-                            data-oid="5508oz-"
+                            data-oid="74e1486"
                         />
                     </motion.div>
                 )}
@@ -203,7 +203,7 @@ const TiltedCard: React.FC<TiltedCardProps> = ({
 
             {/* Alt text for accessibility */}
             {altText && (
-                <div className="sr-only" data-oid="gd4b52k">
+                <div className="sr-only" data-oid="k5e:_uv">
                     {altText}
                 </div>
             )}

@@ -7,18 +7,21 @@ import Features from '../components/Features';
 import ResearchSafety from '../components/ResearchSafety';
 import Waitlist from '../components/Waitlist';
 import Footer from '../components/Footer';
+import Header2 from '@/components/Header2';
 
 export default function Home() {
     return (
-        <main className="min-h-screen" data-oid="lou:cxr">
-            <Header data-oid="w6h:8vk" />
-            <Hero data-oid="2imspxv" />
-            <ProblemStatement data-oid="wjafwuw" />
-            <HowItWorks data-oid="-799c-c" />
-            <Features data-oid="gk5sh2d" />
-            <ResearchSafety data-oid="hok.scs" />
-            <Waitlist data-oid="7jn1kpp" />
-            <Footer data-oid="9v46a0f" />
+        <main className="min-h-screen" data-oid="krex876">
+            {/* <Header data-oid="bwudy.0" /> */}
+            <Header2 data-oid="ln0mi0z" />
+
+            <Hero data-oid="_sy_6yz" />
+            <ProblemStatement data-oid="otaji7n" />
+            <HowItWorks data-oid="tiw0y2:" />
+            <Features data-oid="woj9ufa" />
+            <ResearchSafety data-oid="5nlopir" />
+            <Waitlist data-oid="c_.apsa" />
+            <Footer data-oid="4x95y0." />
         </main>
     );
 }

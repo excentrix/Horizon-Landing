@@ -11,6 +11,7 @@ export const metadata: Metadata = {
             name: 'Project Horizon Team',
         },
     ],
+
     openGraph: {
         title: 'Project Horizon - Your Personal AI Mentor',
         description:
@@ -27,8 +28,8 @@ export const metadata: Metadata = {
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en" className="scroll-smooth" data-oid="g6ejb8e">
-            <body className="antialiased bg-cream" data-oid="cjpi1s6">
+        <html lang="en" className="scroll-smooth" data-oid="boef5q5">
+            <body className="antialiased bg-cream" data-oid=".f.:o0:">
                 {children}
             </body>
         </html>

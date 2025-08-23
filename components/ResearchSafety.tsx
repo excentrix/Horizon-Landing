@@ -74,49 +74,49 @@ const ResearchSafety: React.FC<ResearchSafetyProps> = ({ className = '' }) => {
             ref={ref}
             className={`py-32 bg-white ${className}`}
             id="research-safety"
-            data-oid="9-2yr.j"
+            data-oid="g27md--"
         >
-            <div className="container-horizon" data-oid="5s4yhmc">
+            <div className="container-horizon" data-oid="r.6cxop">
                 {/* Section Header */}
                 <motion.div
                     className="text-center mb-20"
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.8 }}
-                    data-oid="06srhdh"
+                    data-oid="58_iljt"
                 >
                     <h2
                         className="text-4xl lg:text-5xl font-bold text-charcoal mb-6"
-                        data-oid="ls4e7bv"
+                        data-oid=":5zot:x"
                     >
                         Backed by{' '}
-                        <span className="text-soft-orange" data-oid="_t9-ddd">
+                        <span className="text-soft-orange" data-oid="3bwp-z4">
                             Research
                         </span>
                         , Built for{' '}
-                        <span className="text-soft-orange" data-oid="ih2b68e">
+                        <span className="text-soft-orange" data-oid=".l9elhw">
                             Safety
                         </span>
                     </h2>
-                    <p className="text-xl text-warm-gray max-w-3xl mx-auto" data-oid="63962fp">
+                    <p className="text-xl text-warm-gray max-w-3xl mx-auto" data-oid="8t5io_k">
                         Our approach is grounded in decades of educational research and built with
                         enterprise-grade security
                     </p>
                 </motion.div>
 
                 {/* Research Backing */}
-                <div className="mb-24" data-oid="v3vwj:m">
+                <div className="mb-24" data-oid="32fb2m6">
                     <motion.h3
                         className="text-3xl font-bold text-charcoal text-center mb-12"
                         initial={{ opacity: 0, y: 20 }}
                         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        data-oid="t0:91r4"
+                        data-oid="p.-jaf:"
                     >
                         The Science Behind Our Success
                     </motion.h3>
 
-                    <div className="grid lg:grid-cols-3 gap-8" data-oid="n7v.wof">
+                    <div className="grid lg:grid-cols-3 gap-8" data-oid="rv3ml7g">
                         {researchPoints.map((point, index) => (
                             <motion.div
                                 key={index}
@@ -125,30 +125,30 @@ const ResearchSafety: React.FC<ResearchSafetyProps> = ({ className = '' }) => {
                                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                                 transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
                                 whileHover={{ y: -5, scale: 1.02 }}
-                                data-oid="58jckb:"
+                                data-oid="wfs1nsp"
                             >
                                 <h4
                                     className="text-xl font-bold text-charcoal mb-4"
-                                    data-oid="jqr5fw."
+                                    data-oid="oi:o8gp"
                                 >
                                     {point.title}
                                 </h4>
                                 <p
                                     className="text-warm-gray mb-4 leading-relaxed"
-                                    data-oid=":nc7u05"
+                                    data-oid="4hqxo:m"
                                 >
                                     {point.description}
                                 </p>
-                                <div className="space-y-2" data-oid="p3cun.w">
+                                <div className="space-y-2" data-oid="8wrkxi0">
                                     <p
                                         className="text-sm text-soft-orange font-medium"
-                                        data-oid="fe-zjpi"
+                                        data-oid="uvnk1bm"
                                     >
                                         Source: {point.source}
                                     </p>
                                     <p
                                         className="text-lg font-bold text-charcoal"
-                                        data-oid="p4dzoud"
+                                        data-oid="unn9npo"
                                     >
                                         Impact: {point.impact}
                                     </p>
@@ -159,18 +159,18 @@ const ResearchSafety: React.FC<ResearchSafetyProps> = ({ className = '' }) => {
                 </div>
 
                 {/* Safety Measures */}
-                <div className="mb-24" data-oid="ofwtpfe">
+                <div className="mb-24" data-oid="_g1utjs">
                     <motion.h3
                         className="text-3xl font-bold text-charcoal text-center mb-12"
                         initial={{ opacity: 0, y: 20 }}
                         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                         transition={{ duration: 0.6, delay: 0.6 }}
-                        data-oid="9s96sh6"
+                        data-oid="my.2swi"
                     >
                         Your Safety is Our Priority
                     </motion.h3>
 
-                    <div className="grid lg:grid-cols-2 gap-8" data-oid="kchkj8l">
+                    <div className="grid lg:grid-cols-2 gap-8" data-oid="_yv_j0y">
                         {safetyMeasures.map((measure, index) => (
                             <motion.div
                                 key={index}
@@ -183,42 +183,43 @@ const ResearchSafety: React.FC<ResearchSafetyProps> = ({ className = '' }) => {
                                 }
                                 transition={{ duration: 0.6, delay: 0.7 + index * 0.1 }}
                                 whileHover={{ y: -5 }}
-                                data-oid="3km0qt6"
+                                data-oid="rk64g1p"
                             >
-                                <div className="flex items-start space-x-4" data-oid="pwcr78k">
+                                <div className="flex items-start space-x-4" data-oid="zl.6ma:">
                                     <div
                                         className="w-16 h-16 bg-gradient-to-br from-soft-orange to-orange-600 rounded-xl flex items-center justify-center text-2xl text-white flex-shrink-0"
-                                        data-oid="cq85rq2"
+                                        data-oid="i8wb7n9"
                                     >
                                         {measure.icon}
                                     </div>
-                                    <div className="flex-1" data-oid="zc.ug__">
+                                    <div className="flex-1" data-oid="_meaf04">
                                         <h4
                                             className="text-xl font-bold text-charcoal mb-3"
-                                            data-oid="ozv1gdy"
+                                            data-oid="qc4omgz"
                                         >
                                             {measure.title}
                                         </h4>
                                         <p
                                             className="text-warm-gray mb-4 leading-relaxed"
-                                            data-oid="nm2fasg"
+                                            data-oid="21slk.s"
                                         >
                                             {measure.description}
                                         </p>
-                                        <div className="space-y-2" data-oid="q027rhf">
+                                        <div className="space-y-2" data-oid="_jwr1-s">
                                             {measure.details.map((detail, detailIndex) => (
                                                 <div
                                                     key={detailIndex}
                                                     className="flex items-center space-x-2"
-                                                    data-oid="n9qlatn"
+                                                    data-oid="r6.jyh-"
                                                 >
                                                     <div
                                                         className="w-1.5 h-1.5 bg-soft-orange rounded-full flex-shrink-0"
-                                                        data-oid="gsu:agr"
+                                                        data-oid="8wt:1rr"
                                                     />
+
                                                     <span
                                                         className="text-sm text-warm-gray"
-                                                        data-oid="3.u8_42"
+                                                        data-oid="-xchjs-"
                                                     >
                                                         {detail}
                                                     </span>
@@ -238,13 +239,13 @@ const ResearchSafety: React.FC<ResearchSafetyProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.8, delay: 1.0 }}
-                    data-oid="ggqn:mq"
+                    data-oid="gyssri5"
                 >
-                    <h3 className="text-3xl font-bold mb-8" data-oid="5ma511h">
+                    <h3 className="text-3xl font-bold mb-8" data-oid="43u93v_">
                         Trusted by Students Worldwide
                     </h3>
 
-                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-8" data-oid="xcz3zzf">
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-8" data-oid="d85mrae">
                         {trustIndicators.map((indicator, index) => (
                             <motion.div
                                 key={index}
@@ -254,15 +255,15 @@ const ResearchSafety: React.FC<ResearchSafetyProps> = ({ className = '' }) => {
                                     isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }
                                 }
                                 transition={{ duration: 0.5, delay: 1.2 + index * 0.1 }}
-                                data-oid="rf4mnt."
+                                data-oid="bijeye_"
                             >
                                 <div
                                     className="text-4xl lg:text-5xl font-bold text-soft-orange mb-2"
-                                    data-oid="jry0a12"
+                                    data-oid="-l1m8hi"
                                 >
                                     {indicator.number}
                                 </div>
-                                <div className="text-lg text-gray-300" data-oid=":t0epu.">
+                                <div className="text-lg text-gray-300" data-oid="lxg00wc">
                                     {indicator.label}
                                 </div>
                             </motion.div>
@@ -276,19 +277,19 @@ const ResearchSafety: React.FC<ResearchSafetyProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.8, delay: 1.4 }}
-                    data-oid=".2:s:gs"
+                    data-oid="zpe6:ju"
                 >
-                    <p className="text-xl text-warm-gray mb-6" data-oid="81tir42">
+                    <p className="text-xl text-warm-gray mb-6" data-oid="e46e:.i">
                         Join thousands of students who trust us with their learning journey
                     </p>
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center"
-                        data-oid="omyz:na"
+                        data-oid=".6aad1l"
                     >
-                        <button className="btn-primary" data-oid="ft5_juh">
+                        <button className="btn-primary" data-oid="z2sn.dy">
                             Join Waitlist
                         </button>
-                        <button className="btn-outline" data-oid="2vnc-x:">
+                        <button className="btn-outline" data-oid="jp7lolb">
                             Read Our Research
                         </button>
                     </div>

@@ -78,36 +78,36 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
             ref={ref}
             className={`py-32 bg-white ${className}`}
             id="how-it-works"
-            data-oid="5zpr0m."
+            data-oid=".-1.b8k"
         >
-            <div className="container-horizon" data-oid="iyge32c">
+            <div className="container-horizon" data-oid="vragmhm">
                 {/* Section Header */}
                 <motion.div
                     className="text-center mb-20"
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.8 }}
-                    data-oid="_qmqr6q"
+                    data-oid="a-p2iac"
                 >
                     <h2
                         className="text-4xl lg:text-5xl font-bold text-charcoal mb-6"
-                        data-oid="ulh8mk2"
+                        data-oid="6idtpsr"
                     >
                         How It{' '}
-                        <span className="text-soft-orange" data-oid="3li_.n3">
+                        <span className="text-soft-orange" data-oid="9gvu5i1">
                             Works
                         </span>
                     </h2>
-                    <p className="text-xl text-warm-gray max-w-3xl mx-auto" data-oid="t5ebyg-">
+                    <p className="text-xl text-warm-gray max-w-3xl mx-auto" data-oid="lkqi:.j">
                         In just 4 simple steps, you'll have your own AI mentor who understands you
                         like a caring parent would
                     </p>
                 </motion.div>
 
                 {/* Steps Grid */}
-                <div className="grid lg:grid-cols-2 gap-16 items-start" data-oid="pz9er.9">
+                <div className="grid lg:grid-cols-2 gap-16 items-start" data-oid="u-kcx9.">
                     {/* Left Column - Step Navigation */}
-                    <div className="space-y-6" data-oid="1-1rr3m">
+                    <div className="space-y-6" data-oid="i2a4afv">
                         {steps.map((step, index) => (
                             <motion.div
                                 key={index}
@@ -118,7 +118,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
                                 animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 }}
                                 onClick={() => setActiveStep(index)}
-                                data-oid=":up9s2e"
+                                data-oid="_cl5gms"
                             >
                                 <div
                                     className={`p-6 rounded-2xl border-2 transition-all duration-300 ${
@@ -126,32 +126,32 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
                                             ? 'border-soft-orange bg-orange-50 shadow-lg'
                                             : 'border-soft hover:border-soft-orange/50 bg-white'
                                     }`}
-                                    data-oid="94yjyx7"
+                                    data-oid="c11p4rt"
                                 >
-                                    <div className="flex items-start space-x-4" data-oid=":e9zo8b">
+                                    <div className="flex items-start space-x-4" data-oid=".1xkrst">
                                         <div
                                             className={`w-16 h-16 rounded-xl bg-gradient-to-br ${step.color} flex items-center justify-center text-2xl text-white font-bold flex-shrink-0 ${
                                                 activeStep === index ? 'scale-110' : ''
                                             } transition-transform duration-300`}
-                                            data-oid="bljs4ug"
+                                            data-oid="1sovsr3"
                                         >
                                             {step.number}
                                         </div>
-                                        <div className="flex-1" data-oid="v2rb1cc">
+                                        <div className="flex-1" data-oid="soeprt0">
                                             <h3
                                                 className="text-xl font-semibold text-charcoal mb-2"
-                                                data-oid="w5aatm7"
+                                                data-oid="pt54ccr"
                                             >
                                                 {step.title}
                                             </h3>
                                             <p
                                                 className="text-warm-gray leading-relaxed"
-                                                data-oid=":nvjowv"
+                                                data-oid="zof9-vl"
                                             >
                                                 {step.description}
                                             </p>
                                         </div>
-                                        <div className="text-3xl" data-oid="f5-93y0">
+                                        <div className="text-3xl" data-oid="m7.cvct">
                                             {step.icon}
                                         </div>
                                     </div>
@@ -164,7 +164,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
                                         initial={{ scale: 0 }}
                                         animate={{ scale: 1 }}
                                         transition={{ duration: 0.3, delay: 0.1 }}
-                                        data-oid="2jip0-_"
+                                        data-oid=":sulj4j"
                                     />
                                 )}
                             </motion.div>
@@ -177,36 +177,36 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
                         initial={{ opacity: 0, x: 30 }}
                         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
-                        data-oid="qc782t7"
+                        data-oid="7rvfr5w"
                     >
                         <div
                             className="bg-gradient-to-br from-surface to-white rounded-3xl p-8 shadow-xl border border-soft"
-                            data-oid="d5_4edg"
+                            data-oid="mld6212"
                         >
                             {/* Step Header */}
-                            <div className="text-center mb-8" data-oid="7d:k5a7">
+                            <div className="text-center mb-8" data-oid="oj6kdb7">
                                 <div
                                     className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${steps[activeStep].color} flex items-center justify-center text-3xl text-white mx-auto mb-4`}
-                                    data-oid="f:dl1da"
+                                    data-oid="1hbwn7e"
                                 >
                                     {steps[activeStep].icon}
                                 </div>
                                 <h3
                                     className="text-2xl font-bold text-charcoal mb-2"
-                                    data-oid="wfsku3c"
+                                    data-oid="gj44wr5"
                                 >
                                     {steps[activeStep].title}
                                 </h3>
-                                <p className="text-warm-gray text-lg" data-oid="z44ai4t">
+                                <p className="text-warm-gray text-lg" data-oid="b64mll-">
                                     {steps[activeStep].description}
                                 </p>
                             </div>
 
                             {/* Step Details */}
-                            <div className="space-y-4" data-oid="2a.da-o">
+                            <div className="space-y-4" data-oid="beeq2.z">
                                 <h4
                                     className="font-semibold text-charcoal text-lg mb-4"
-                                    data-oid="x5tu2tq"
+                                    data-oid="p3_10u5"
                                 >
                                     What happens during this step:
                                 </h4>
@@ -217,13 +217,14 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
                                         initial={{ opacity: 0, x: 20 }}
                                         animate={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 0.4, delay: index * 0.1 }}
-                                        data-oid="-d---wh"
+                                        data-oid="2-pakp:"
                                     >
                                         <div
                                             className="w-2 h-2 bg-soft-orange rounded-full flex-shrink-0"
-                                            data-oid="u:8v28s"
+                                            data-oid="d-tw231"
                                         />
-                                        <span className="text-warm-gray" data-oid="-g00d-w">
+
+                                        <span className="text-warm-gray" data-oid="dqf7:ag">
                                             {detail}
                                         </span>
                                     </motion.div>
@@ -236,21 +237,22 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.3 }}
-                                data-oid="p_q0d-8"
+                                data-oid="nuxjr7y"
                             >
-                                <h4 className="font-semibold text-charcoal mb-3" data-oid="m:p-1yj">
+                                <h4 className="font-semibold text-charcoal mb-3" data-oid="uzii9x:">
                                     Preview of this step:
                                 </h4>
                                 <div
                                     className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl p-4"
-                                    data-oid="x9cfdv."
+                                    data-oid=":iibzkz"
                                 >
-                                    <div className="flex items-center space-x-3" data-oid="dd9hdxw">
+                                    <div className="flex items-center space-x-3" data-oid="nn6pif9">
                                         <div
                                             className="w-3 h-3 bg-green-400 rounded-full animate-pulse"
-                                            data-oid="pxwdpvf"
+                                            data-oid="p_cggm:"
                                         />
-                                        <span className="text-sm text-warm-gray" data-oid="msr3evh">
+
+                                        <span className="text-sm text-warm-gray" data-oid="_-d9.l7">
                                             {activeStep === 0 &&
                                                 'Student profile creation interface'}
                                             {activeStep === 1 && 'AI mentor generation process'}
@@ -270,19 +272,19 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                     transition={{ duration: 0.8, delay: 1.2 }}
-                    data-oid="qzq8y.1"
+                    data-oid="lywjapv"
                 >
-                    <p className="text-xl text-warm-gray mb-6" data-oid="4ht6ig-">
+                    <p className="text-xl text-warm-gray mb-6" data-oid="s2ri8o6">
                         Ready to meet your AI mentor? The journey starts with a simple conversation.
                     </p>
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center"
-                        data-oid="r2m04pn"
+                        data-oid="meq__zd"
                     >
-                        <button className="btn-primary" data-oid="nmut27.">
+                        <button className="btn-primary" data-oid="hvm_w2l">
                             Start Your Journey
                         </button>
-                        <button className="btn-outline" data-oid="c.g94kr">
+                        <button className="btn-outline" data-oid="hqnncn:">
                             Watch Demo Video
                         </button>
                     </div>
