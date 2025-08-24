@@ -1,4 +1,4 @@
-# Onlook Landing Page
+# Horizon Landing Page
 
 A modern, interactive landing page built with Next.js and React Bits components, featuring stunning animations and cutting-edge design.
 
