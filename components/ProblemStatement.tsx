@@ -105,7 +105,7 @@ const ProblemStatement: React.FC<ProblemStatementProps> = ({ className = '' }) =
                                 className="text-lg sm:text-xl font-semibold text-dark mb-4"
                                 data-oid="9t3:z5x"
                             >
-                                What you&apos;re experiencing: What you're experiencing:
+                                What you&apos;re experiencing: What you&apos;re experiencing:
                             </h3>
                             <div className="grid gap-3 sm:gap-4" data-oid="0gflcoz">
                                 {problems.map((problem, index) => (

@@ -7,6 +7,7 @@ import { Clock, ExternalLink, Play } from 'lucide-react';
 import { AnimatePresence, motion, useMotionValue, useSpring } from 'motion/react';
 import { encode } from 'qss';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export interface AdvancedPopoverProps {
     trigger: React.ReactNode;
@@ -218,7 +219,7 @@ export default function AdvancedPopover({
                                     className="p-1 bg-white border-2 border-transparent hover:border-neutral-200 dark:hover:border-neutral-800"
                                     data-oid="_2rq:vu"
                                 >
-                                    <img
+                                    <Image
                                         src={isStatic ? imageSrc : src}
                                         width={width}
                                         height={height}

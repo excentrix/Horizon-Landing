@@ -21,7 +21,7 @@ interface TestimonialsProps {
 
 const Testimonials: React.FC<TestimonialsProps> = ({ className = '' }) => {
     const ref = useRef<HTMLDivElement>(null);
-    const isInView = useInView(ref, { once: true, threshold: 0.1 });
+    const isInView = useInView(ref, { once: true });
 
     const testimonials: Testimonial[] = [
         {
@@ -154,7 +154,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ className = '' }) => {
                                 className="text-gray-700 text-lg leading-relaxed mb-6 italic"
                                 data-oid="8uw:kj9"
                             >
-                                "{testimonial.content}"
+                                &quot;{testimonial.content}&quot;
                             </blockquote>
 
                             {/* Author */}
