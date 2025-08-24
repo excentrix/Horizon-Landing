@@ -29,7 +29,7 @@ const Counter: React.FC<CounterProps> = ({
     className = '',
 }) => {
     const ref = useRef<HTMLDivElement>(null);
-    const isInView = useInView(ref, { once: true, threshold: 0.1 });
+    const isInView = useInView(ref, { once: true });
     const [count, setCount] = useState(0);
 
     useEffect(() => {
