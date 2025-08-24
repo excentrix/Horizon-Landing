@@ -14,7 +14,7 @@ const ResearchSafety: React.FC<ResearchSafetyProps> = ({ className = '' }) => {
 
     const researchPoints = [
         {
-            title: "Bloom's 2 Sigma Problem",
+            title: "Bloom&apos;s 2 Sigma Problem",
             description:
                 'Research shows personalized tutoring can improve student performance by 2 standard deviations',
             source: 'Educational Psychology Review, 1984',

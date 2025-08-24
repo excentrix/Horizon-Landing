@@ -105,7 +105,7 @@ const ProblemStatement: React.FC<ProblemStatementProps> = ({ className = '' }) =
                                 className="text-lg sm:text-xl font-semibold text-dark mb-4"
                                 data-oid="9t3:z5x"
                             >
-                                What you're experiencing:
+                                What you&apos;re experiencing: What you're experiencing:
                             </h3>
                             <div className="grid gap-3 sm:gap-4" data-oid="0gflcoz">
                                 {problems.map((problem, index) => (
@@ -264,8 +264,9 @@ const ProblemStatement: React.FC<ProblemStatementProps> = ({ className = '' }) =
                                             className="text-sm text-medium italic"
                                             data-oid="_-4ff_l"
                                         >
-                                            "I feel like I'm just another number in the system. No
-                                            one really understands what I'm going through."
+                                            &quot;I feel like I&apos;m just another number in the
+                                            system. No one really understands what I&apos;m going
+                                            through.&quot;
                                         </p>
                                     </motion.div>
                                 </div>

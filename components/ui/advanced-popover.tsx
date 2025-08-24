@@ -22,7 +22,6 @@ export interface AdvancedPopoverProps {
     side?: 'top' | 'bottom' | 'left' | 'right';
     align?: 'start' | 'center' | 'end';
     // Image preview props
-    url: string;
     width?: number;
     height?: number;
     quality?: number;
@@ -66,7 +65,7 @@ export default function AdvancedPopover({
     side = 'top',
     align = 'center',
     // Image preview props
-    url,
+
     width = 200,
     height = 125,
     quality = 50,
@@ -85,7 +84,7 @@ export default function AdvancedPopover({
     let src: string;
     if (!isStatic) {
         const params = encode({
-            url,
+            url: href,
             screenshot: true,
             meta: false,
             embed: 'screenshot.url',

@@ -279,8 +279,8 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                                     Welcome to Project Horizon!
                                 </h3>
                                 <p className="text-gray-300 mb-6" data-oid="zs922xs">
-                                    You've successfully joined our waitlist. We'll notify you as
-                                    soon as we launch and give you early access.
+                                    You&apos;ve successfully joined our waitlist. We&apos;ll notify
+                                    you as soon as we launch and give you early access.
                                 </p>
                                 <button
                                     onClick={() => setSubmitted(false)}
@@ -404,7 +404,7 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                             data-oid="cdh_0im"
                         >
                             <h3 className="text-xl font-bold mb-4" data-oid="wjes.eb">
-                                What You'll Get
+                                What You&apos;ll Get
                             </h3>
                             <div className="space-y-3" data-oid="86n-3s3">
                                 {[
@@ -446,8 +446,8 @@ const Waitlist: React.FC<WaitlistProps> = ({ className = '' }) => {
                     transition={{ duration: 0.8, delay: 1.4 }}
                     data-oid="ssei6h0"
                 >
-                    <p className="text-xl text-gray-300 mb-6" data-oid="po:smbt">
-                        Don't miss out on the future of personalized learning
+                    <p className="text-lg text-medium text-center" data-oid="-rsprtf">
+                        Don&apos;t miss out on the future of personalized learning
                     </p>
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center"

@@ -101,9 +101,9 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                                 className="text-lg text-gray-300 leading-relaxed max-w-md"
                                 data-oid="_c:.n5a"
                             >
-                                We're solving Bloom's 2 Sigma Problem by bringing personalized AI
-                                mentoring to every student. Because everyone deserves the guidance
-                                that caring parents once provided.
+                                We&apos;re solving Bloom&apos;s 2 Sigma Problem by bringing
+                                personalized AI mentoring to every student. Because everyone
+                                deserves the guidance that caring parents once provided.
                             </p>
 
                             {/* Social Links */}

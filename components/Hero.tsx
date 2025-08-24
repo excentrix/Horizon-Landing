@@ -7,6 +7,7 @@ import RichTooltip from './smoothui/richPopover';
 import { FaWikipediaW } from 'react-icons/fa';
 import { Particles } from './magicui/particles';
 import { LinkPreview } from './ui/link-preview';
+import AdvancedPopover from './ui/advanced-popover';
 
 interface HeroProps {
     className?: string;
@@ -19,14 +20,14 @@ const Hero: React.FC<HeroProps> = ({ className = '' }) => {
     const [showResponse, setShowResponse] = useState(false);
 
     const responses = [
-        "Yes, I can't sleep properly",
-        "I don't know where to start studying",
-        "I'm worried I'm not good enough",
+        'Yes, I can&apos;t sleep properly',
+        'I don&apos;t know where to start studying',
+        'I&apos;m worried I&apos;m not good enough',
     ];
 
     const aiResponses = [
-        "I understand how overwhelming exams can be. Let's start with a simple breathing exercise to help you relax. Can you take 3 deep breaths with me?",
-        "That's a common feeling! Let me help you break it down. What subject are you most worried about? We can create a simple study plan together.",
+        'I understand how overwhelming exams can be. Let&apos;s start with a simple breathing exercise to help you relax. Can you take 3 deep breaths with me?',
+        'That&apos;s a common feeling! Let me help you break it down. What subject are you most worried about? We can create a simple study plan together.',
         'You are absolutely good enough. Every student feels this way sometimes. Let me share a story about how I helped another student who felt the same...',
     ];
 
@@ -110,32 +111,58 @@ const Hero: React.FC<HeroProps> = ({ className = '' }) => {
                             whileHover={{ scale: 1.05 }}
                             data-oid="flv8a6n"
                         >
-                            <RichTooltip
+                            {/* <RichTooltip
+                trigger={
+                <div
+                className="flex items-center gap-2 bg-orange-100 text-orange-600 px-3 sm:px-4 py-2 rounded-full text-sm font-medium "
+                data-oid="j_9pvfb"
+                >
+                <span data-oid="xng.hv8">
+                <FaWikipediaW
+                className="h-6 w-6 bg-white rounded-full p-1"
+                data-oid="9566bw6"
+                />
+                </span>
+                <span data-oid="l_cldk8">
+                Solving Bloom&apos;s 2 Sigma Problem
+                </span>
+                </div>
+                }
+                title="Solving Bloom&apos;s 2 Sigma Problem"
+                description="Bloom&apos;s 2 sigma problem refers to the educational phenomenon that the average student tutored one-to-one using mastery learning techniques performed two standard deviations better than students educated in a classroom environment."
+                icon={<FaWikipediaW className="h-6 w-6 " data-oid="i3xkonf" />}
+                href="https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem"
+                actionLabel="Read Article"
+                meta="2 min read"
+                actionHref="https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem"
+                data-oid="nd2q.n4"
+                /> */}
+                            <AdvancedPopover
+                                data-oid="o_kjx_z"
                                 trigger={
                                     <div
                                         className="flex items-center gap-2 bg-orange-100 text-orange-600 px-3 sm:px-4 py-2 rounded-full text-sm font-medium "
-                                        data-oid="j_9pvfb"
+                                        data-oid=":9omrme"
                                     >
-                                        <span data-oid="xng.hv8">
+                                        <span data-oid="0:75.6u">
                                             <FaWikipediaW
                                                 className="h-6 w-6 bg-white rounded-full p-1"
-                                                data-oid="9566bw6"
+                                                data-oid="hpg:whc"
                                             />
                                         </span>
-                                        <span data-oid="l_cldk8">
-                                            Solving Bloom's 2 Sigma Problem
+                                        <span data-oid="db.8sh.">
+                                            Solving Bloom&apos;s 2 Sigma Problem
                                         </span>
                                     </div>
                                 }
                                 title="Solving Bloom's 2 Sigma Problem"
                                 description="Bloom's 2 sigma problem refers to the educational phenomenon that the average student tutored one-to-one using mastery learning techniques performed two standard deviations better than students educated in a classroom environment."
-                                icon={<FaWikipediaW className="h-6 w-6 " data-oid="i3xkonf" />}
+                                icon={<FaWikipediaW className="h-6 w-6 " data-oid="g5za8iu" />}
                                 href="https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem"
                                 actionLabel="Read Article"
                                 meta="2 min read"
                                 actionHref="https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem"
-                                data-oid="nd2q.n4"
-                            />
+                            />{' '}
                         </motion.div>
 
                         {/* Main Heading */}
@@ -350,8 +377,8 @@ const MentorChatPreview: React.FC<MentorChatPreviewProps> = ({
                         data-oid="_zl3pt4"
                     >
                         <p className="text-sm text-dark" data-oid="zpo2x42">
-                            Hey! I noticed you're stressed about your upcoming exams. Want to talk
-                            about it?
+                            Hey! I noticed you&apos;re stressed about your upcoming exams. Want to
+                            talk about it?
                         </p>
                     </div>
                 </motion.div>

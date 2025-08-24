@@ -99,8 +99,8 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ className = '' }) => {
                         </span>
                     </h2>
                     <p className="text-xl text-warm-gray max-w-3xl mx-auto" data-oid="lkqi:.j">
-                        In just 4 simple steps, you'll have your own AI mentor who understands you
-                        like a caring parent would
+                        In just 4 simple steps, you&apos;ll have your own AI mentor who understands
+                        you like a caring parent would
                     </p>
                 </motion.div>
 

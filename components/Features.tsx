@@ -320,8 +320,8 @@ const Features: React.FC<FeaturesProps> = ({ className = '' }) => {
                                             data-oid="16fhyrk"
                                         >
                                             <p className="text-sm text-dark" data-oid="anzdae.">
-                                                Hi! I'm here to help you with your studies. What
-                                                would you like to work on today?
+                                                Hi! I&apos;m here to help you with your studies.
+                                                What would you like to work on today?
                                             </p>
                                         </div>
                                     </motion.div>
@@ -340,8 +340,8 @@ const Features: React.FC<FeaturesProps> = ({ className = '' }) => {
                                             data-oid="678c-:6"
                                         >
                                             <p className="text-sm" data-oid="-79ygdv">
-                                                I'm struggling with math. Can you help me understand
-                                                calculus?
+                                                I&apos;m struggling with math. Can you help me
+                                                understand calculus?
                                             </p>
                                         </div>
                                     </motion.div>
@@ -360,8 +360,8 @@ const Features: React.FC<FeaturesProps> = ({ className = '' }) => {
                                             data-oid=".cggfzk"
                                         >
                                             <p className="text-sm text-dark" data-oid="t2dmsdq">
-                                                Of course! I'll create a personalized learning plan
-                                                for you. Let's start with the basics...
+                                                Of course! I&apos;ll create a personalized learning
+                                                plan for you. Let&apos;s start with the basics...
                                             </p>
                                         </div>
                                     </motion.div>

@@ -3,7 +3,7 @@ import './globals.css';
 export const metadata: Metadata = {
     title: 'Project Horizon - Your Personal AI Mentor for Career, Academics & Mental Health',
     description:
-        "Get personalized guidance for career, academics, and mental health in your language. Your AI mentor designed like a caring parent, solving Bloom's 2 Sigma Problem.",
+        'Get personalized guidance for career, academics, and mental health in your language. Your AI mentor designed like a caring parent, solving Bloom&apos;s 2 Sigma Problem.',
     keywords:
         'AI mentor, personalized learning, career guidance, academic support, mental health, student success, India education',
     authors: [
